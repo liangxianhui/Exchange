@@ -1,0 +1,3303 @@
+[NPTV]##u4IsDoviHDR=0 ###
+{ACFG} mtktvapi_config.c:a_mtktvapi_config_get_value:6727 dolby_vision and CFG_GRP_DOVI_INFO get *pi4_value =0 
+[NPTV]Disable AdaptiveLuma
+[DVI][306.542551]AV_MUTE force mute
+[HDMI][306.558590]HDMI port 4 sync or clock lost--------
+[HDMI][306.558616]hdmi module mute: 0->1.
+[HDMI][306.558641]audio module mute: 0->1.
+[HDMI][306.558655][1;36mP[4] state from 3 change to 2[0m
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]Not HDR10 Plus
+[NPTV]XCCurHdrType:0
+[NPTV]u1hdrtype:0
+[VDP]------- in VDP_DrvHDRChgedNotify--------
+[NPTV]HDMI vDrvHDREOTFChangeNotify-->u2EotfValue:255 
+[DVI][306.558839]Type 0 mc: h/v total unstable 1 
+[DVI][306.558853]Type 0 mc: h/v active unstable 1 
+[DVI][306.558868]Type 0 mc: pixel clk unstable 1 
+[DVI][306.558883]Type 0 dvi2_mc:hdmi range change from 2 to 0
+[DVI][306.558898]Type 0 dvi2_mc:color metry change from 19 to 0
+[DVI][306.558920]Type 0 mc2: DVI Change from 1 to 2!
+[MWIF2-VDP]------- _VdpHDRTYPEChangedNotify--------
+[dragon]:_acfg_scc_vid_hdr_vdp_nfy:hdr=0
+acfg.c:_acfg_app_process_msg_fct:3482 ACFG_MSG_SCC_VID_HDR_EVNT e_nfy_cond=0,pt_msg_hdr_evnt->e_vid_hdr_type=0,b_HDR_to_SDR=0
+{AUDIO_INFO} {AUDIO_INFO} audio_info.c:_audio_info_update_analog_audio_info:2458 FALSE == b_is_ready
+{AUDIO_INFO} {AUDIO_INFO} audio_info.c:_audio_info_update_analog_audio_info:2458 FALSE == b_is_ready
+[HDMI][306.575533][V20] P[4] TMDS clk change from 0 to 301957
+[HDMI][306.575553]TMDS clock change detected!
+[HDMI][306.575809]_bHDMI2PhySetingHandle guard it....
+[DVI][306.576023]Type 0 VSVDB found, ieee tag is 0xd04601!
+[DVI][306.576036]Type 0 Dolby VSVDB 0x9c6d5e84520b44 found!
+[NPTV]vDrvDolbySetSource 775 u1VdpId:0 u1Dolby_Mode:3 u1Omux_Source:4
+[NPTV]vDrvDolbySetSource 780,dv ip core is not be used now, no need to do disconnect!!
+[DVI][306.576084]Type 0 ____main mode change_____
+[DVI][306.576098]Type 0 mc2: DVI Change from 2 to 3!
+[DI] After adjust DI frc line value:136
+[NPTV]extern frame delay = 0
+[NPTV]bDrvVideoGetFrameDelay x10 frame (PScan 0, Scaler 20, MJC 7), (i2FrameDelayTime 22)
+[NPTV]Total frame delay u2TotalDelayCnt :3 u1InFrmRate:120 u1OutFrmRate:120
+[DI]u1Framedly:3,i1Delay:3
+[HDMI][306.592299]40xMode change detected!
+[HDMI][306.592564]_bHDMI2PhySetingHandle guard it....
+KDrv_XC_SetSignalStatus: 12262, Singal status change: Singal -> No singal
+[NPTV][Performance]***** MAIN Change to VDO_STATE_WAIT_MODE_DET 
+[NPTV]*******========source detect initial
+[PDWNC] set vga pdwnc module
+[DI] After adjust DI frc line value:181
+[AUD]dec id = 0, handle = -140926592, ffffffc0f635bd14
+[AUD]dec id = 1, handle = -141475712, ffffffc0f635bd14
+[HDMI][306.609288]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:181
+[HDMI][306.625931]_bHDMI2PhySetingHandle guard it....
+[HDMI][306.642667]_bHDMI2PhySetingHandle guard it....
+[HDMI][306.659335]eBand=13,b40xMode=0
+[HDMI][306.659361][Port4]vHDMI21PhyAnaSetting
+[HDMI][306.689697][PHY]Set analog use time 0.030295 s!>>>>>>>>>>
+[HDMI][306.690488]_bHDMI2PhySetingHandle guard it....
+[HDMI][306.692613]_bHDMI2PhySetingHandle guard it....
+[HDMI][306.709344]_bHDMI2PhySetingHandle guard it....
+[HDMI][306.712568]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][306.725981]_bHDMI2PhySetingHandle guard it....
+[HDMI][306.742728]_bHDMI2PhySetingHandle guard it....
+[HDMI][306.759328]_bHDMI2PhySetingHandle guard it....
+[HDMI][306.776018]_bHDMI2PhySetingHandle guard it....
+[HDMI][306.792653]_bHDMI2PhySetingHandle guard it....
+[HDMI][306.809302]_bHDMI2PhySetingHandle guard it....
+[HDMI][306.825940]clock change interrupt detected, reset HDMI all!
+[HDMI][306.826202][Port4]vHDMI21PhyAnaSetting
+[HDMI][306.856539][PHY]Set analog use time 0.030300 s!>>>>>>>>>>
+[HDMI][306.858215]_bHDMI2PhySetingHandle guard it....
+[HDMI][306.859325]_bHDMI2PhySetingHandle guard it....
+[HDMI][306.875913]_bHDMI2PhySetingHandle guard it....
+[HDMI][306.877520]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][306.892638]_bHDMI2PhySetingHandle guard it....
+[HDMI][306.909260]_bHDMI2PhySetingHandle guard it....
+[HDMI][306.925923]_bHDMI2PhySetingHandle guard it....
+[HDMI][306.942586]_bHDMI2PhySetingHandle guard it....
+[HDMI][306.959259]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][306.975944]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:271
+[HDMI][306.992648]clock change interrupt detected, reset HDMI all!
+[HDMI][306.992918][Port4]vHDMI21PhyAnaSetting
+[HDMI][307.023263][PHY]Set analog use time 0.030303 s!>>>>>>>>>>
+[DI] After adjust DI frc line value:181
+[HDMI][307.025632]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.026490]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.042613]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.047541]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][307.059251]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.075885]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.092613]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.109226]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.125924]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][307.142552]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:271
+[HDMI][307.159234]clock change interrupt detected, reset HDMI all!
+[HDMI][307.159504][Port4]vHDMI21PhyAnaSetting
+[HDMI][307.189847][PHY]Set analog use time 0.030299 s!>>>>>>>>>>
+[DI] After adjust DI frc line value:181
+[HDMI][307.192199]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.193073]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.207531]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][307.209133]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.225873]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.242542]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.259283]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.275836]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.292559]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.309173]clock change interrupt detected, reset HDMI all!
+[HDMI][307.309445][Port4]vHDMI21PhyAnaSetting
+[HDMI][307.339791][PHY]Set analog use time 0.030305 s!>>>>>>>>>>
+[HDMI][307.341487]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.342438]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.359170]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.362567]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][307.375826]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.392626]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.409164]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.425760]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.442435]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][307.459161]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:271
+[HDMI][307.475804]clock change interrupt detected, reset HDMI all!
+[HDMI][307.476074][Port4]vHDMI21PhyAnaSetting
+[HDMI][307.506440][PHY]Set analog use time 0.030323 s!>>>>>>>>>>
+[DI] After adjust DI frc line value:181
+[HDMI][307.508886]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.509721]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.522571]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][307.525732]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.542419]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.559080]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][307.575817]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:271
+[HDMI][307.592402]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.609074]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.625702]clock change interrupt detected, reset HDMI all!
+[HDMI][307.625970][Port4]vHDMI21PhyAnaSetting
+[HDMI][307.656310][PHY]Set analog use time 0.030302 s!>>>>>>>>>>
+[DI] After adjust DI frc line value:136
+[HDMI][307.658108]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.659057]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:181
+[HDMI][307.675770]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.677556]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][307.692375]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.709047]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.725682]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.742359]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.759046]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.775676]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][307.792359]clock change interrupt detected, reset HDMI all!
+[HDMI][307.792662][Port4]vHDMI21PhyAnaSetting
+[HDMI][307.823026][PHY]Set analog use time 0.030323 s!>>>>>>>>>>
+[DI] After adjust DI frc line value:181
+[HDMI][307.825150]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.826016]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.842321]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.847526]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][307.859012]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.875667]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.892338]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.908990]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.925638]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.942291]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.958998]clock change interrupt detected, reset HDMI all!
+[HDMI][307.959267][Port4]vHDMI21PhyAnaSetting
+[HDMI][307.989612][PHY]Set analog use time 0.030303 s!>>>>>>>>>>
+[HDMI][307.991240]_bHDMI2PhySetingHandle guard it....
+[HDMI][307.992314]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.008958]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.012543]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][308.025642]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.042291]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.058973]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.075630]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.092249]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][308.109108]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:271
+[HDMI][308.125682]clock change interrupt detected, reset HDMI all!
+[HDMI][308.125971][Port4]vHDMI21PhyAnaSetting
+[HDMI][308.156314][PHY]Set analog use time 0.030302 s!>>>>>>>>>>
+[DI] After adjust DI frc line value:181
+[HDMI][308.158705]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.159480]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.175572]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.177539]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][308.192254]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.208900]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.225578]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.242253]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.258893]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.275665]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.292238]clock change interrupt detected, reset HDMI all!
+[HDMI][308.292527][Port4]vHDMI21PhyAnaSetting
+[HDMI][308.322867][PHY]Set analog use time 0.030305 s!>>>>>>>>>>
+[HDMI][308.324471]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.325570]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.342209]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.347546]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][308.359069]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.375616]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.392584]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.408903]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.425503]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.442178]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][308.459071]clock change interrupt detected, reset HDMI all!
+[HDMI][308.459336][Port4]vHDMI21PhyAnaSetting
+[HDMI][308.489672][PHY]Set analog use time 0.030299 s!>>>>>>>>>>
+[DI] After adjust DI frc line value:181
+[HDMI][308.492344]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.508858]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.517545]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][308.525497]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.542193]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.558810]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.575462]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.592113]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.608803]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.625707]clock change interrupt detected, reset HDMI all!
+[HDMI][308.625973][Port4]vHDMI21PhyAnaSetting
+[HDMI][308.656313][PHY]Set analog use time 0.030306 s!>>>>>>>>>>
+[HDMI][308.657925]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.658719]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.675535]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.677559]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][308.692097]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.708857]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.725451]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.742070]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.758749]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.775398]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.792099]clock change interrupt detected, reset HDMI all!
+[HDMI][308.792369][Port4]vHDMI21PhyAnaSetting
+[HDMI][308.822735][PHY]Set analog use time 0.030331 s!>>>>>>>>>>
+[HDMI][308.824348]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.825397]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.842060]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.847523]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][308.858730]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.875390]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.892958]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.908702]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.925384]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][308.942151]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:271
+[HDMI][308.958710]clock change interrupt detected, reset HDMI all!
+[HDMI][308.958977][Port4]vHDMI21PhyAnaSetting
+[HDMI][308.989471][PHY]Set analog use time 0.030453 s!>>>>>>>>>>
+[DI] After adjust DI frc line value:181
+[HDMI][308.991764]_bHDMI2PhySetingHandle guard it....
+[HDMI][308.992614]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.008684]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.012563]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][309.025321]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.042171]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.058662]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.075343]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.092057]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.108760]clock change interrupt detected, reset HDMI all!
+[HDMI][309.109027][Port4]vHDMI21PhyAnaSetting
+[HDMI][309.139414][PHY]Set analog use time 0.030346 s!>>>>>>>>>>
+[HDMI][309.141011]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.141927]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.158619]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.162550]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][309.175328]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.191944]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.208638]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.225281]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.241952]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.258612]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.275302]clock change interrupt detected, reset HDMI all!
+[HDMI][309.275597][Port4]vHDMI21PhyAnaSetting
+[HDMI][309.306110][PHY]Set analog use time 0.030450 s!>>>>>>>>>>
+[HDMI][309.307815]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.308580]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.322560]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][309.325380]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.341946]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.358591]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.375252]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.391917]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.408566]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.425229]clock change interrupt detected, reset HDMI all!
+[HDMI][309.425500][Port4]vHDMI21PhyAnaSetting
+[HDMI][309.455833][PHY]Set analog use time 0.030293 s!>>>>>>>>>>
+[DI] After adjust DI frc line value:361
+[HDMI][309.457641]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.458513]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:271
+[HDMI][309.475241]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.477522]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][309.491883]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:136
+[HDMI][309.508584]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:181
+[HDMI][309.525284]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.541843]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.558542]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.575213]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][309.591888]clock change interrupt detected, reset HDMI all!
+[HDMI][309.592154][Port4]vHDMI21PhyAnaSetting
+[HDMI][309.622539][PHY]Set analog use time 0.030345 s!>>>>>>>>>>
+[DI] After adjust DI frc line value:181
+[HDMI][309.624349]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.625139]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.641823]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.647554]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][309.658522]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.675186]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.691864]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.708484]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.725199]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.741942]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.758606]clock change interrupt detected, reset HDMI all!
+[HDMI][309.758875][Port4]vHDMI21PhyAnaSetting
+[HDMI][309.789224][PHY]Set analog use time 0.030313 s!>>>>>>>>>>
+[DI] After adjust DI frc line value:361
+[HDMI][309.791089]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:271
+[HDMI][309.792473]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.808481]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.812583]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][309.825116]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:136
+[HDMI][309.841863]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:181
+[HDMI][309.858469]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.875122]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.891775]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.908477]_bHDMI2PhySetingHandle guard it....
+[DVI][309.908587]Type 0 mc: from activity detected to force mode done
+[DVI][309.908739]Type 0 VSVDB found, ieee tag is 0xd04601!
+[DVI][309.908752]Type 0 Dolby VSVDB 0x9c6d5e84520b44 found!
+[NPTV]vDrvDolbySetSource 775 u1VdpId:0 u1Dolby_Mode:3 u1Omux_Source:4
+[NPTV]vDrvDolbySetSource 780,dv ip core is not be used now, no need to do disconnect!!
+[DVI][309.908806][1;32mType 0 Main Mode Done[m
+[DI] After adjust DI frc line value:361
+[HDMI][309.925118]clock change interrupt detected, reset HDMI all!
+[HDMI][309.925382][Port4]vHDMI21PhyAnaSetting
+[HDMI][309.955713][PHY]Set analog use time 0.030294 s!>>>>>>>>>>
+[NPTV][Performance]Stable, Change to VDO_STATE_IDLE #2 bSigMode = 0
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]HDR10PlusModeChange:0
+[NPTV]vDrvIsHDR10Plus:0
+[DI] After adjust DI frc line value:181
+{scdb} error at /home/work2/walle-mtk9950/vendor/mediatek/proprietary_tv/apollo/middleware/open/common/scdb/scdb_api.c:1887,ret=-6,h_scdb:19337276
+{scdb} error at /home/work2/walle-mtk9950/vendor/mediatek/proprietary_tv/apollo/middleware/open/common/scdb/scdb_api.c:1887,ret=-6,h_scdb:19337276[HDMI][309.958231]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.959033]_bHDMI2PhySetingHandle guard it....
+
+{scdb} error at /home/work2/walle-mtk9950/vendor/mediatek/proprietary_tv/apollo/middleware/open/common/scdb/scdb_api.c:1887,ret=-6,h_scdb:17502276[AUD]CMD: set Stop: Dsp(0) Dec(0)
+
+[HDMI][309.975093]_bHDMI2PhySetingHandle guard it....
+[HDMI][309.977573]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[AUD]_AudSendDspFlowControlCmd receive stop cmd
+[AUD]Aud dsp(0) dec(0) AUD_Command <AUD_CMD_STOP> done
+[AUD]====> vAprocDec_Close 0
+[AUD_MS12_PCMR_DISCARD_DRC][4243] xiaomi, bEnable(1)
+[AUD][_AUD_MS12_PCMR_DISCARD_DRC:7850]u4Base(0xffffff800d041000),u4Offset(0x886b40),pi4Addr(0xffffff800d8c7b40),bEnable(1)
+[AUD]dec id = 0, handle = -140926592, ffffffc0f7467cd4
+{SVCTX:RM_CLIENT}Info: svctx_rm_release@L5219. e_res_group(2) [AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[HDMI][309.991753]_bHDMI2PhySetingHandle guard it....
+
+{SVCTX:RM_CLIENT}Info: svctx_rm_release@L5229. No need release for group(2)
+{SVCTX:RM_CLIENT}Info: svctx_rm_release@L5219. e_res_group(2) 
+{SVCTX:RM_CLIENT}Info: svctx_rm_release@L5229. No need release for group(2)
+[HDMI][310.008399]_bHDMI2PhySetingHandle guard it....
+[HDMI][310.025050]_bHDMI2PhySetingHandle guard it....
+[HDMI][310.041750]_bHDMI2PhySetingHandle guard it....
+[HDMI][310.058425]_bHDMI2PhySetingHandle guard it....
+[HDMI][310.075045]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[DI] After adjust DI frc line value:271
+[DVI][310.208429]Type 0 mc: from no signal to wait stable
+[DVI][310.208458]Type 0 mc2: DVI Change from 0 to 3!
+MTVDEC_GetInfo() fail, ret=-2
+<MTKTVAPI><a_mtktvapi_config_update_nfy,11039> notifyId=6 
+<MTKTVAPI><a_mtktvapi_config_update_nfy,11039> notifyId=1 
+{NAVIGATOR} [HDMI][310.224559]HDMI port 4 enter stable, current is HDMI Mode, resolution is 3200 x 1440.
+[HDMI][310.227116][1;36mP[4] state from 2 change to 3[0m
+[HDMI][310.227138]P[4]HDMI_HDCP22:HDCP auth done!
+[HDMI][310.227151]P[4]HDMI_HDCP22:HDCP ake sent received!
+========P[4] Video Status========
+[V20]CKDT detected
+[V20]SCDT detected
+[V20]width: 3200
+[V20]height: 1440
+[V20]htotal: 3400
+[V20]base/real vtotal: 1481 / 1481
+[V20]base/real refresh rate: 60 / 60
+[V20]pixel freq: 302163000HZ
+[V20]progressive signal|HDMI mode|8 bit|RGB
+[V20]HDMI2.0 and Tx scrambling en
+[V20]TMDS clock ratio-1:10
+[V20]Av Mute:false
+========P[4] Audio Status========
+[V20]HDMI audio fifo ok
+[V20]Audio N=6144, CTS=301875, Fs=48K   
+[V20]Audio is PCM, multi channel(up to 8)
+[V20]Audio status:mute
+========P[4] HDCP Status=========
+<NAV>Err: current lock priority is higher than the request. request pri = 70, current pri = 50 
+[HDMI][310.231832]hdcp1.4 crc check success
+[HDMI][310.232902]Check secure hdcp2.2 key valid
+[V20]HDCP key status: v1.4/v2.2 => valid/valid
+[V20] HDCP1.4 auth fail | Hdcp2.2 auth done
+=======P[4] General Status=======
+[V20]5v:1, Hpd:1, TMDSClk:301957
+[V20]Range:0, Scan:2, AspactRatio:0, AFD:8
+[V20]ITC:1, ITCcontent:0, ALLM:0
+[V20]VIC:0, VRR index:255, NCCIRMode:1, VPOut:0
+[V20]__bHDMIState :3, HDMI DV state: 0
+[V20]VRR Info:FVA 0 M_CONST 0 VRR_EN 0 Base_vf 0
+[V20]VRR Info: RB 0 Base_Refresh_Rate 0 VrrMDx Vaule 0x00000000
+==============================
+[HDMI][310.241711]hdmi module mute: 1->0.
+[HDMI][310.241745]audio module mute: 1->0.
+[HDMI][310.262569]P[4]25018 hdcp errors captured, increase err count.
+[HDMI][310.517561]P[4]12585 hdcp errors captured, increase err count.
+[HDMI][310.772562]P[4]12591 hdcp errors captured, increase err count.
+[HDMI][311.027564]P[4]12585 hdcp errors captured, increase err count.
+[DVI][311.058400]Type 0 VSVDB found, ieee tag is 0xd04601!
+[DVI][311.058427]Type 0 Dolby VSVDB 0x9c6d5e84520b44 found!
+[NPTV]vDrvDolbySetSource 775 u1VdpId:0 u1Dolby_Mode:3 u1Omux_Source:4
+[NPTV]vDrvDolbySetSource 780,dv ip core is not be used now, no need to do disconnect!!
+[DVI][311.058509]Type 0 ____main mode change_____
+[DVI][311.058527]Type 0 md: DVI_MODE_DONE_01 2PMode 0
+[HDMI][311.058540]select hdmi clock path as 0
+[DVI][311.058556]Type 0 vsync frequency: 60
+[DVI][311.058567]Type 0 hsync frequency: 888
+[DVI][311.058578]Type 0 Htotal: 3400
+[DVI][311.058589]Type 0 Vtotal: 1481
+[DVI][311.058603]Type 0  timing search 3
+[DVI][311.058613]Type 0 bSearch= 31
+[DVI][311.058625]Type 0 _wDviHtotal= 3400
+[DVI][311.058636]Type 0 Get_VGAMODE_IHTOTAL= 1650
+[DVI][311.058647]Type 0 bDVIGetHeight()= 1440,_wHeight= 1440
+[DVI][311.058659]Type 0 Get_VGAMODE_IPV_LEN=1470
+[DVI][311.058669]Type 0 fgHDMIinterlaced: 0,_bInterlaced:0
+[DVI][311.058681]Type 0  timing search 3
+[DVI][311.058692]Type 0 bSearch= 73
+[DVI][311.058702]Type 0 _wDviHtotal= 3400
+[DVI][311.058713]Type 0 Get_VGAMODE_IHTOTAL= 1650
+[DVI][311.058724]Type 0 bDVIGetHeight()= 1440,_wHeight= 1440
+[DVI][311.058735]Type 0 Get_VGAMODE_IPV_LEN=1440
+[DVI][311.058747]Type 0 fgHDMIinterlaced: 0,_bInterlaced:0
+[DVI][311.058819]Type 0 Current hdr10Plus type is 0
+[NPTV]vDrvDolbySetSource 775 u1VdpId:0 u1Dolby_Mode:3 u1Omux_Source:4
+[NPTV]vDrvDolbySetSource 780,dv ip core is not be used now, no need to do disconnect!!
+[DVI][311.058861]Type 0 Current dolby hdr type is 0
+[DVI][311.058873]Type 0 mc2: DVI Change from 3 to 5!
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[1;35;40m [2K20_PQ_DBG] _vDrvWrapperPQSetPQGammaCurveIndex u32GammaCurveIndex = 1 [0m 
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[vDrvWrapperPQSetArg][1831][0]
+[TECHNI] Set TechniColorHDR On = 0 
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[DI] After adjust DI frc line value:271
+[HDMI][311.074826]hdmi module mute: 0->1.
+[HDMI][311.074854]audio module mute: 0->1.
+[NPTV][Performance]***** MAIN Change to VDO_STATE_WAIT_MODE_DET 
+[NPTV]*******========source detect initial
+[PDWNC] set vga pdwnc module
+[DVI][311.075595]Type 0 mc: Mode Detect Done
+[DVI][311.075608]Type 0 md: DVI_MODE_DONE
+[DVI][311.075622][1;32mType 0 Main Mode Done[m
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]HDR10PlusModeChange:0
+[NPTV]vDrvIsHDR10Plus:0
+[NPTV]input gamma type is undefined...
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[DVI][311.075832]Type 0 activeport 4 IsDvi 1 eHDMICurrSwitch 4
+[DVI][311.075845]2D signal
+[DVI][311.075855]TDTV Input Mode: 0x       1
+[DVI][311.075866][E_TDTV_DECODER_INPUT_2D_P]
+[DVI][311.075879]sw: DVI Htotal: 3400
+[DVI][311.075891]sw: DVI Vtotal: 1481
+[DVI][311.075902]sw: DVI width: 3200
+[DVI][311.075913]sw: DVI height: 1440
+[DVI][311.075923]sw: DVI refresh rate: 60
+[DVI][311.075933]sw: DVI interlace/progressive: 0
+[DVI][311.075944]sw: DVI signal status: 3
+[DVI][311.075954]sw: _bDviTiming: 252
+[DVI][311.075965]sw: pixel clock: 302163000
+[DVI][311.075976]sw: _bDviVclk: 60
+[DVI][311.075986]sw: _wDviHclk: 888
+[DVI][311.076001]sw: vsync frequency: 60
+[DVI][311.076012]sw: hsync frequency: 888
+[DVI][311.076022]_bHDMIColorSpace (1=RGB , 0 =YCBCR) : 1
+[DVI][311.076034]sw: HDE Start: 141
+[DVI][311.076045]sw: VDE Start: 39
+[DVI][311.076055]_bDviChkState: 5
+[DVI][311.076069]sw: 2PLRMode: 0
+[DVI][311.076079]sw: DviByp Main 1 Sub 0
+[DVI][311.076089]Dolby vision status:0
+[DVI][311.076099]HDR10Plus status: 0
+m DVI
+m Signal Status = Stable
+m HTotal = 3400
+m source width = 3200
+m VTotal = 1481
+m source height = 1440
+m refresh-rate = 60
+m Timing = Not Support OR No Signal
+IsVga 1
+[NPTV]=========================
+[NPTV]Main HW status:
+[NPTV]omux Htotal/hde 3399 3200
+[NPTV]omux vtotal/vde 1480 1439
+[NPTV]Sub HW status:
+[NPTV]omux Htotal/hde 3399 3200
+[NPTV]omux vtotal/vde 1480 1439
+[HDMI][311.287549]P[4]12836 hdcp errors captured, increase err count.
+[HDMI][311.287566]P[4]hdcp error detected and trigger no signal state!
+[NPTV]3rd HW status:
+[NPTV]omux Htotal/hde 3399 3200
+[NPTV]omux vtotal/vde 1480 1439
+[DVI][311.387632]Type 0 mc2: DVI Change from 5 to 1!
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[1;35;40m [2K20_PQ_DBG] _vDrvWrapperPQSetPQGammaCurveIndex u32GammaCurveIndex = 1 [0m 
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[vDrvWrapperPQSetArg][1831][0]
+[TECHNI] Set TechniColorHDR On = 0 
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[DI] After adjust DI frc line value:361
+[NPTV][vDrvLCESWinit] SW init successful u1LCEconstVarinit=1,u1LCESWInitialized=1
+[NPTV][vDrvLCEProc] local contrast bIsLCESRAMInit
+[NPTV][vDrvLCEInit] LCE init successful u2Width=3840,u2Height=2160
+[MJC]update main window 0,0,3840,2160
+[MJC]update MJC to 4 mode, in w/h(3840,2160)
+[MJC]update w/h(3840,2160)
+[MJC]memc repeat422 mode.
+[MJC]MB_0=0x14
+[MJC]MB_1=0x1
+[MJC]MB_2=0x6
+[MJC]Mjc window update(1)
+[MJC]update in/out frame rate(60,120)
+[MJC]MB_0=0x11
+[MJC]MB_1=0x2
+[MJC]MB_2=0x3c
+[MJC]MB_3=0x78
+[MJC]MB_0=0x12
+[MJC]MB_1=0x1
+[MJC]MB_2=0x2
+[AUD]dec id = 0, handle = -140926592, ffffffc0f635bd14
+[AUD]dec id = 1, handle = -141475712, ffffffc0f635bd14
+[HDMI][311.400141][1;36mP[4] state from 3 change to 0[0m
+[NPTV][Performance]Stable, Change to VDO_STATE_IDLE #2 bSigMode = 3
+[NPTV]u1Dvi2GetHVAlignSetting:0
+[NPTV][Performance]+vDrvApplyVideoSetting()KDrv_XC_SetSignalStatus: 12262, Singal status change: No singal -> Singal
+Unknow Input Type 
+[elvis] Hal_SC_ip_software_reset
+(TZ_smi_ctrl_larb_96bit) larb_id=19, u4TimeOut=10
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=20, u4TimeOut=2
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=21, u4TimeOut=2
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=22, u4TimeOut=10
+[smi_ctrl_larb_96bit] bEnable = 0x1
+[_MDrv_PQ_InputSoureHDMI   645] bIsHDMI = 1, bIsHDMIPC = 0
+_MDrv_PQ_InputSoureHDMI hdr=0,srct=0 
+[Load PQ] Panel index=2, Source index=0
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+unknown IOCTL 10
+[_MDrv_HSYBin_Writereg][3867]
+[Load PQ: TMO] Panel index=2, Source index=1
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+vDrvWrapperXCSetGameMode:2048 bEnable:1 
+[elvis] Hal_SC_ip_software_reset
+(TZ_smi_ctrl_larb_96bit) larb_id=19, u4TimeOut=10
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=20, u4TimeOut=2
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=21, u4TimeOut=2
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=22, u4TimeOut=10
+[smi_ctrl_larb_96bit] bEnable = 0x1
+[NPTV]u4TargetLine = 4442
+[NPTV][Performance]-vDrvApplyVideoSetting()[NPTV][4KBE] Skip switch panel mode(14).
+[NPTV]vDrvCalPanelFrameRate u2VdoVTotal=1481 u4VdoFrameRate=60 u4PanelRatio=1
+[NPTV]vDrvCalPanelTiming: (DCLKType, FrameRate) = (2, 120) -> (2, 120)
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]HDR10PlusModeChange:0
+[NPTV]vDrvIsHDR10Plus:0
+[NPTV]DRVCUST_SetBT2020Sta u1BT2020Sta=0
+[NPTV]input gamma type is undefined...
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[DVI][311.404834]Type 0 VSVDB found, ieee tag is 0xc45dd8!
+[DVI][311.404848]Type 0 VRR VSVDB 0xC45DD8 found and enable!
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]Not HDR10 Plus
+[NPTV]XCCurHdrType:0
+[NPTV]u1hdrtype:0
+[VDP]------- in VDP_DrvHDRChgedNotify--------
+[NPTV]HDMI vDrvHDREOTFChangeNotify-->u2EotfValue:255 
+[DVI][311.405190]Type 0 mc: h/v total unstable 2 
+[DVI][311.405203]Type 0 mc: h/v active unstable 2 
+[DVI][311.405217]Type 0 dvi2_mc:res change
+[DVI][311.405229]Type 0 mc:sync lost___
+[DVI][311.405263]Type 0 dvi2_mc:hdmimode change from 1 to 0
+[DVI][311.405276]Type 0 dvi2_mc:hdmi range change from 2 to 0
+[DVI][311.405290]Type 0 dvi2_mc:color metry change from 19 to 0
+[DVI][311.405308]Type 0 mc2: DVI Change from 1 to 2!
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[1;35;40m [2K20_PQ_DBG] _vDrvWrapperPQSetPQGammaCurveIndex u32GammaCurveIndex = 1 [0m 
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[vDrvWrapperPQSetArg][1831][0]
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[DI] After adjust DI frc line value:181
+[GD]  [_KDrv_XC_UCD_CheckUCDCondition,  879]Source is 8K !!!!
+[NPTV]MTVDEC_GetInfo() fail, ret=-2extern frame delay = 0
+[NPTV]bDrvVideoGetFrameDelay x10 frame (PScan 1, Scaler 0, MJC 5), (i2FrameDelayTime 10)
+[NPTV]Total frame delay u2TotalDelayCnt :1 u1InFrmRate:60 u1OutFrmRate:120
+[DI]u1Framedly:1,i1Delay:1
+[AUD]dec id = 0, handle = -140926592, ffffffc0f635bd14
+[AUD]L:223 _AudSrmStableCb() is called. u2VdpDelay:10
+[AUD]dec id = 1, handle = -141475712, ffffffc0f635bd14
+[AUD][_CalculateOutputDeviceDelay]adjust delay=-1881 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-1881 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-576 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-576 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-576 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-576 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-576 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-576 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-576 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-576 need >= 0![AUD][_SetOutputDeviceDelay]: dev7 Aproc set delay banks:142
+
+MTVDEC_GetInfo() fail, ret=-2
+[AVC] Notify HDMI2 has NO Audio
+MTVDEC_GetInfo() fail, ret=-2
+[MWIF2-VDP]------- _VdpHDRTYPEChangedNotify--------
+[dragon]:_acfg_scc_vid_hdr_vdp_nfy:hdr=0
+acfg.c:_acfg_app_process_msg_fct:3482 ACFG_MSG_SCC_VID_HDR_EVNT e_nfy_cond=0,pt_msg_hdr_evnt->e_vid_hdr_type=0,b_HDR_to_SDR=0
+<MTKTVAPI><a_mtktvapi_config_update_nfy,11039> notifyId=7 
+<MTKTVAPI><a_mtktvapi_config_update_nfy,11039> notifyId=1 
+{SM-CM} [SM] VS: _sm_video_hdlr_get(SM_VSH_GET_TYPE_VIDEO_SRC_RESOLUTION), rm_get(TV_DEC_GET_TYPE_COLOR_SYS) fail, i4_ret = -16
+{SB_CE} {_svctx_listener_nfy_fct 1745} send SB_DVBC_MSG_SVC_SELECTED_NFY(12): e_svctx_cond 3 
+{SB_CE} 		[1748] msg is sent from svctx. the listener of scan eng works.
+{SB_CE} [6843] SB_DVBC_MSG_SVC_SELECTED_NFY [NPTV]extern frame delay = 0
+[HDMI][NPTV]bDrvVideoGetFrameDelay x10 frame (PScan 1, Scaler 0, MJC 5), (i2FrameDelayTime 10)
+[NPTV]Total frame delay u2TotalDelayCnt :1 u1InFrmRate:60 u1OutFrmRate:120
+[DI]u1Framedly:1,i1Delay:1
+[311.423977][1;36mP[4] state from 0 change to 1[0m
+[DVI][311.424163]Type 0 VSVDB found, ieee tag is 0xd04601!
+[DVI][311.424177]Type 0 Dolby VSVDB 0x9c6d5e84520b44 found!
+[NPTV]vDrvDolbySetSource 775 u1VdpId:0 u1Dolby_Mode:3 u1Omux_Source:4
+[NPTV]vDrvDolbySetSource 780,dv ip core is not be used now, no need to do disconnect!!
+[DVI][311.424248]Type 0 ____main mode change_____
+[DVI][311.424262]Type 0 mc2: DVI Change from 2 to 3!
+[DI] After adjust DI frc line value:719
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD][_AUD_RiscIecBufInit:1480]IEC Buffer Init u4Str(0x9144eab0), u4End(0xa), u4Size(0x10), u4SiBase(0x9144eee0)
+******Amplifier_TI5805_SWMute(0)
+
+KDrv_XC_SetSignalStatus: 12262, Singal status change: Singal -> No singal
+[NPTV][Performance]***** MAIN Change to VDO_STATE_WAIT_MODE_DET 
+[NPTV]*******========source detect initial
+[PDWNC] set vga pdwnc module
+[DI] After adjust DI frc line value:181
+[AUD]dec id = 0, handle = -140926592, ffffffc0f635bd14
+[AUD]dec id = 1, handle = -141475712, ffffffc0f635bd14
+[DI] After adjust DI frc line value:181
+******Amplifier_TI5805_SWMute(0)
+[DI] After adjust DI frc line value:181
+******Amplifier_TI5805_SWMute(0)
+******Amplifier_TI5805_SWMute(0)
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD][_AUD_RiscIecBufInit:1480]IEC Buffer Init u4Str(0x9144eab0), u4End(0xa), u4Size(0x10), u4SiBase(0x9144eee0)
+******Amplifier_TI5805_SWMute(0)
+******Amplifier_TI5805_SWMute(0)
+******Amplifier_TI5805_SWMute(0)
+******Amplifier_TI5805_SWMute(0)
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD]CMD: set DecType: Dsp(0) Dec(0) StreamFrom(LINE_IN) Fmt(AUD_DEC_FMT_PCM)
+[AUD]_GetMasterDevices start
+[AUD]_AUD_SetInputSourceGain Src(4),Dec0 to 0x8f9e3f
+acfg.c:_acfg_app_process_msg_fct: pre picture mode i2_val =10,i2_switch=0,t_hdmi_infoframe:b_valid=0,aui1_info_frame_data[2]=0,aui1_info_frame_data[4]=0,ui1_allm_config=0,
+<MTKTVAPI><a_mtktvapi_config_update_nfy,11039> notifyId=3 
+{SB_CE} [6866] SET Internal ret changing 
+{SB_CE} [6908] crnt_svl_id = 0, crnt_svl_rec_id = 0
+[AUD]Aud dsp(0) dec(0) AUD_Command <AUD_CMD_LOADCODE> done
+[AUD]Audio ADC Mux Select as 0 
+[AUD]Audio ADC input mux select as 0 
+ [AUD]AvInputMux = 14
+[AUD]CMD: set DecType: Dsp(0) Dec(0) StreamFrom(LINE_IN) Fmt(AUD_DEC_FMT_PCM)
+[AUD]_GetMasterDevices start
+[AUD]_AUD_SetInputSourceGain Src(4),Dec0 to 0x8f9e3f
+[AUD]Aud dsp(0) dec(0) AUD_Command <AUD_CMD_LOADCODE> done
+[AUD]CMD: set AVSyncMode: Dsp(0) Dec(0) Mode(AV_SYNC_FREE_RUN)
+[AUD]CMD: set Play Asyn: Dsp(0) Dec(0)
+[AUD]====> vAprocDecc_Open 0
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(0)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(1)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(2)
+[AUD_MS12_PCMR_DISCARD_DRC][4243] xiaomi, bEnable(1)
+[AUD][_AUD_MS12_PCMR_DISCARD_DRC:7850]u4Base(0xffffff800d041000),u4Offset(0x886b40),pi4Addr(0xffffff800d8c7b40),bEnable(1)
+[AUD_MS12_PCMR_COMPRESSOR_PROFILE][4339] xiaomi, u4Cprof(0)
+[AUD][_AUD_DolbyMS12_Loudness:2134]u1DecId(0)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(0)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(1)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(2)
+[AUD]dec id = 0, handle = -140926592, ffffffc0f7467c94
+[AUD]Aud dsp(0) dec(0) AUD_Command <AUD_CMD_PLAY> done
+[AUD][SC]AQ_init Line in SILENCECTRL_SP_GAIN_MODE=512
+[AUD][SC]SILENCECTRL_FIX_THRESHOLD=1048576
+[AUD][SC]SILENCECTRL_WAIT_NUM=375
+[AUD][AUD][SC]SILENCECTRL_RELEASE_STEP=129055
+[AUD][SC]SILENCECTRL_ATTACK_STEP=64035
+[AUD][SC]SILENCECTRL_ATTACK_GAIN=0
+dec id = 0, handle = -140926592, ffffffc0f7467cd4
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(0)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(1)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(2)
+[AUD_MS12_PCMR_DISCARD_DRC][4243] xiaomi, bEnable(1)
+[AUD][_AUD_MS12_PCMR_DISCARD_DRC:7850]u4Base(0xffffff800d041000),u4Offset(0x886b40),pi4Addr(0xffffff800d8c7b40),bEnable(1)
+[AUD_MS12_PCMR_COMPRESSOR_PROFILE][4339] xiaomi, u4Cprof(0)
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD]_AudAutoModeConvertIecCfg:IecCfg:1
+[AUD][_AUD_RiscIecBufInit:1480]IEC Buffer Init u4Str(0x9144eab0), u4End(0xa), u4Size(0x10), u4SiBase(0x9144eee0)
+[AUD][_CalculateOutputDeviceDelay]adjust delay=-382 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-382 need >= 0![AUD][_SetOutputDeviceDelay]: dev2 Aproc set delay banks:14
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:2
+[AUD][_SetOutputDeviceDelay]: dev3 Aproc set delay banks:14
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:3
+[AUD][_SetOutputDeviceDelay]: dev4 Aproc set delay banks:14
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:4
+[AUD][_SetOutputDeviceDelay]: dev5 Aproc set delay banks:14
+[AUD][_SetOutputDeviceDelay]: dev6 Aproc set delay banks:14
+[AUD][_SetOutputDeviceDelay]: dev7 Aproc set delay banks:165
+[AUD][_SetOutputDeviceDelay]: dev9 Aproc set delay banks:14
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:9
+[AUD][_SetOutputDeviceDelay]: dev10 Aproc set delay banks:14
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:10
+[AUD][_SetOutputDeviceDelay]: dev11 Aproc set delay banks:14
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:11
+[AUD]dec id = 0, handle = -140926592, ffffffc0f7533d14
+[AUD]AUD_DrvMMAoutEnableNotify: u1DecId(0), fgResume(0)
+{AUDIO_INFO} {AUDIO_INFO} audio_info.c:_audio_info_update_analog_audio_info:2458 FALSE == b_is_ready
+[HDMI][312.224481][V20] P[4] TMDS clk change from 0 to 301957
+[HDMI][312.224491]TMDS clock change detected!
+[HDMI][312.224738]_bHDMI2PhySetingHandle guard it....
+[HDMI][312.224744][1;36mP[4] state from 1 change to 2[0m
+[NPTV]##u4IsDoviHDR=0 ###
+{ACFG} mtktvapi_config.c:a_mtktvapi_config_get_value:6727 dolby_vision and CFG_GRP_DOVI_INFO get *pi4_value =0 
+[HDMI][312.258100]_bHDMI2PhySetingHandle guard it....
+[HDMI][312.291404]eBand=13,b40xMode=0
+[HDMI][312.291424][Port4]vHDMI21PhyAnaSetting
+[HDMI][312.321762][PHY]Set analog use time 0.030301 s!>>>>>>>>>>
+[HDMI][312.324693]_bHDMI2PhySetingHandle guard it....
+[HDMI][312.342585]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][312.358171]_bHDMI2PhySetingHandle guard it....
+[HDMI][312.391402]_bHDMI2PhySetingHandle guard it....
+[HDMI][312.424770]_bHDMI2PhySetingHandle guard it....
+[HDMI][313.824155]unstable count over range, reset all phy setting...
+[HDMI][313.824423][Port4]vHDMI21PhyAnaSetting
+[HDMI][313.854750][PHY]Set analog use time 0.030293 s!>>>>>>>>>>
+[HDMI][313.856069]_bHDMI2PhySetingHandle guard it....
+[HDMI][313.858009]_bHDMI2PhySetingHandle guard it....
+[HDMI][313.882557]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][313.891372]_bHDMI2PhySetingHandle guard it....
+[HDMI][313.924643]_bHDMI2PhySetingHandle guard it....
+[HDMI][313.957998]_bHDMI2PhySetingHandle guard it....
+[HDMI][313.991315]clock change interrupt detected, reset HDMI all!
+[HDMI][313.991588][Port4]vHDMI21PhyAnaSetting
+[HDMI][314.021926][PHY]Set analog use time 0.030294 s!>>>>>>>>>>
+[HDMI][314.024634]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.047548]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][314.058071]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.091291]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.124616]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.157993]clock change interrupt detected, reset HDMI all!
+[HDMI][314.158264][Port4]vHDMI21PhyAnaSetting
+[HDMI][314.188595][PHY]Set analog use time 0.030292 s!>>>>>>>>>>
+[HDMI][314.191297]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.212546]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][314.224666]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.257968]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.291299]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.324650]clock change interrupt detected, reset HDMI all!
+[HDMI][314.324927][Port4]vHDMI21PhyAnaSetting
+[HDMI][314.355284][PHY]Set analog use time 0.030320 s!>>>>>>>>>>
+[HDMI][314.358145]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.377539]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][314.391373]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.424633]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.458132]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.491354]clock change interrupt detected, reset HDMI all!
+[HDMI][314.491622][Port4]vHDMI21PhyAnaSetting
+[HDMI][314.521966][PHY]Set analog use time 0.030307 s!>>>>>>>>>>
+[HDMI][314.524629]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.552540]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][314.557976]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.591285]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.624626]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.658007]clock change interrupt detected, reset HDMI all!
+[HDMI][314.658281][Port4]vHDMI21PhyAnaSetting
+[HDMI][314.688624][PHY]Set analog use time 0.030306 s!>>>>>>>>>>
+[HDMI][314.691276]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.712579]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][314.724767]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.757948]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.791259]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.824585]clock change interrupt detected, reset HDMI all!
+[HDMI][314.824853][Port4]vHDMI21PhyAnaSetting
+[HDMI][314.855178][PHY]Set analog use time 0.030294 s!>>>>>>>>>>
+[HDMI][314.857952]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.882542]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][314.891263]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.924598]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.957964]_bHDMI2PhySetingHandle guard it....
+[HDMI][314.991265]clock change interrupt detected, reset HDMI all!
+[HDMI][314.991534][Port4]vHDMI21PhyAnaSetting
+[HDMI][315.021863][PHY]Set analog use time 0.030295 s!>>>>>>>>>>
+[HDMI][315.024627]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.052535]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][315.058016]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.091394]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.124605]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.157999]clock change interrupt detected, reset HDMI all!
+[HDMI][315.158269][Port4]vHDMI21PhyAnaSetting
+[HDMI][315.188609][PHY]Set analog use time 0.030299 s!>>>>>>>>>>
+[HDMI][315.191373]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.212538]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][315.224675]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.258063]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.291267]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.324636]clock change interrupt detected, reset HDMI all!
+[HDMI][315.324904][Port4]vHDMI21PhyAnaSetting
+[HDMI][315.355252][PHY]Set analog use time 0.030316 s!>>>>>>>>>>
+[HDMI][315.358014]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.377569]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][315.391319]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.424864]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.458418]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.491241]clock change interrupt detected, reset HDMI all!
+[HDMI][315.491531][Port4]vHDMI21PhyAnaSetting
+[HDMI][315.522183][PHY]Set analog use time 0.030617 s!>>>>>>>>>>
+[HDMI][315.524835]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.547530]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][315.557949]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.591460]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.625046]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][315.657953]clock change interrupt detected, reset HDMI all!
+[HDMI][315.658220][Port4]vHDMI21PhyAnaSetting
+[HDMI][315.688584][PHY]Set analog use time 0.030331 s!>>>>>>>>>>
+[DI] After adjust DI frc line value:181
+[HDMI][315.691182]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.712586]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][315.724586]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.757955]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.791231]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.824563]clock change interrupt detected, reset HDMI all!
+[HDMI][315.824835][Port4]vHDMI21PhyAnaSetting
+[HDMI][315.855223][PHY]Set analog use time 0.030355 s!>>>>>>>>>>
+[HDMI][315.857894]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.872575]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][315.891278]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.924631]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.957937]_bHDMI2PhySetingHandle guard it....
+[HDMI][315.991266]clock change interrupt detected, reset HDMI all!
+[HDMI][315.991535][Port4]vHDMI21PhyAnaSetting
+[HDMI][316.021905][PHY]Set analog use time 0.030329 s!>>>>>>>>>>
+[HDMI][316.024583]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.042536]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][316.057911]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.091212]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.124517]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.157873]clock change interrupt detected, reset HDMI all!
+[HDMI][316.158144][Port4]vHDMI21PhyAnaSetting
+[HDMI][316.188473][PHY]Set analog use time 0.030288 s!>>>>>>>>>>
+[HDMI][316.191194]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.212564]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][316.224539]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.258202]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.291192]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.324531]clock change interrupt detected, reset HDMI all!
+[HDMI][316.324803][Port4]vHDMI21PhyAnaSetting
+[HDMI][316.355613][PHY]Set analog use time 0.030777 s!>>>>>>>>>>
+[HDMI][316.357931]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.377558]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][316.391238]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.424533]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.457958]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.491201]clock change interrupt detected, reset HDMI all!
+[HDMI][316.491475][Port4]vHDMI21PhyAnaSetting
+[HDMI][316.521825][PHY]Set analog use time 0.030310 s!>>>>>>>>>>
+[HDMI][316.524553]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.547538]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][316.557921]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.591215]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.624526]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.657923]clock change interrupt detected, reset HDMI all!
+[HDMI][316.658196][Port4]vHDMI21PhyAnaSetting
+[HDMI][316.688547][PHY]Set analog use time 0.030304 s!>>>>>>>>>>
+[HDMI][316.691187]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.707548]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][316.724512]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.757875]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.791165]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.824518]clock change interrupt detected, reset HDMI all!
+[HDMI][316.824791][Port4]vHDMI21PhyAnaSetting
+[HDMI][316.855169][PHY]Set analog use time 0.030336 s!>>>>>>>>>>
+[HDMI][316.857933]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.877546]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][316.891248]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.924496]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.957935]_bHDMI2PhySetingHandle guard it....
+[HDMI][316.991203]clock change interrupt detected, reset HDMI all!
+[HDMI][316.991474][Port4]vHDMI21PhyAnaSetting
+[HDMI][317.021802][PHY]Set analog use time 0.030286 s!>>>>>>>>>>
+[HDMI][317.024551]_bHDMI2PhySetingHandle guard it....
+[HDMI][317.042554]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][317.057890]_bHDMI2PhySetingHandle guard it....
+[HDMI][317.091148]_bHDMI2PhySetingHandle guard it....
+[HDMI][317.124488]_bHDMI2PhySetingHandle guard it....
+[HDMI][317.157839]clock change interrupt detected, reset HDMI all!
+[HDMI][317.158112][Port4]vHDMI21PhyAnaSetting
+[HDMI][317.188475][PHY]Set analog use time 0.030324 s!>>>>>>>>>>
+[HDMI][317.191114]_bHDMI2PhySetingHandle guard it....
+[HDMI][317.212563]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][317.224484]_bHDMI2PhySetingHandle guard it....
+[HDMI][317.257833]_bHDMI2PhySetingHandle guard it....
+[HDMI][317.291147]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[AUD][PLAY_MUTE](0)!!gogogo Audio UnMute!! i2UnMuteCount = 0 u4VdoMuteFlag = 1[DI] After adjust DI frc line value:361
+[HDMI][317.690675]HDMI port 4 enter stable, current is HDMI Mode, resolution is 3200 x 1440.
+[HDMI][317.691210][1;36mP[4] state from 2 change to 3[0m
+[HDMI][317.691228]P[4]HDMI_HDCP22:HDCP auth done!
+[HDMI][317.691241]P[4]HDMI_HDCP22:HDCP ake sent received!
+========P[4] Video Status========
+[V20]CKDT detected
+[V20]SCDT detected
+[V20]width: 3200
+[V20]height: 1440
+[V20]htotal: 3400
+[V20]base/real vtotal: 1481 / 1481
+[V20]base/real refresh rate: 60 / 60
+[V20]pixel freq: 301957000HZ
+[V20]progressive signal|HDMI mode|8 bit|RGB
+[V20]HDMI2.0 and Tx scrambling en
+[V20]TMDS clock ratio-1:10
+[V20]Av Mute:false
+========P[4] Audio Status========
+[V20]HDMI audio fifo underun
+[V20]Audio N=6144, CTS=301874, Fs=48K   
+[V20]Audio is PCM, multi channel(up to 8)
+[V20]Audio status:mute
+========P[4] HDCP Status=========
+[HDMI][317.695896]hdcp1.4 crc check success
+[HDMI][317.696844]Check secure hdcp2.2 key valid
+[V20]HDCP key status: v1.4/v2.2 => valid/valid
+[V20] HDCP1.4 auth fail | No Hdcp2.2
+=======P[4] General Status=======
+[V20]5v:1, Hpd:1, TMDSClk:301957
+[V20]Range:0, Scan:2, AspactRatio:0, AFD:8
+[V20]ITC:1, ITCcontent:0, ALLM:0
+[V20]VIC:0, VRR index:255, NCCIRMode:1, VPOut:0
+[V20]__bHDMIState :3, HDMI DV state: 0
+[V20]VRR Info:FVA 0 M_CONST 0 VRR_EN 0 Base_vf 0
+[V20]VRR Info: RB 0 Base_Refresh_Rate 0 VrrMDx Vaule 0x00000000
+==============================
+[HDMI][317.697560]P[4]32056 hdcp errors captured, increase err count.
+[HDMI][317.952561]P[4]12584 hdcp errors captured, increase err count.
+[HDMI][318.207528]P[4]12585 hdcp errors captured, increase err count.
+[HDMI][318.467559]P[4]12837 hdcp errors captured, increase err count.
+[HDMI][318.722527]P[4]12584 hdcp errors captured, increase err count.
+[HDMI][318.722555]P[4]hdcp error detected and trigger no signal state!
+[HDMI][318.724395][1;36mP[4] state from 3 change to 0[0m
+[DI] After adjust DI frc line value:181
+[HDMI][318.757256][1;36mP[4] state from 0 change to 1[0m
+[DI] After adjust DI frc line value:181
+[ACFG_NFX_AR] timeout 
+[HDMI][319.524101][V20] P[4] TMDS clk change from 0 to 301957
+[HDMI][319.524125]TMDS clock change detected!
+[HDMI][319.524381]_bHDMI2PhySetingHandle guard it....
+[HDMI][319.524400][1;36mP[4] state from 1 change to 2[0m
+[HDMI][319.557733]_bHDMI2PhySetingHandle guard it....
+[HDMI][319.591030]eBand=13,b40xMode=0
+[HDMI][319.591060][Port4]vHDMI21PhyAnaSetting
+[HDMI][319.621420][PHY]Set analog use time 0.030321 s!>>>>>>>>>>
+[HDMI][319.624346]_bHDMI2PhySetingHandle guard it....
+[HDMI][319.642552]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][319.657710]_bHDMI2PhySetingHandle guard it....
+[HDMI][319.691402]_bHDMI2PhySetingHandle guard it....
+[HDMI][319.724372]_bHDMI2PhySetingHandle guard it....
+[NPTV]##u4IsDoviHDR=0 ###
+{ACFG} mtktvapi_config.c:a_mtktvapi_config_get_value:6727 dolby_vision and CFG_GRP_DOVI_INFO get *pi4_value =0 
+[HDMI][321.157136]unstable count over range, reset all phy setting...
+[HDMI][321.157408][Port4]vHDMI21PhyAnaSetting
+[HDMI][321.187787][PHY]Set analog use time 0.030336 s!>>>>>>>>>>
+[HDMI][321.189110]_bHDMI2PhySetingHandle guard it....
+[HDMI][321.190910]_bHDMI2PhySetingHandle guard it....
+[HDMI][321.212560]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][321.224273]_bHDMI2PhySetingHandle guard it....
+[HDMI][321.257633]_bHDMI2PhySetingHandle guard it....
+[HDMI][321.290935]_bHDMI2PhySetingHandle guard it....
+[HDMI][321.324266]clock change interrupt detected, reset HDMI all!
+[HDMI][321.324533][Port4]vHDMI21PhyAnaSetting
+[HDMI][321.354879][PHY]Set analog use time 0.030308 s!>>>>>>>>>>
+[HDMI][321.357701]_bHDMI2PhySetingHandle guard it....
+[HDMI][321.382551]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][321.390972]_bHDMI2PhySetingHandle guard it....
+[HDMI][321.424282]_bHDMI2PhySetingHandle guard it....
+[HDMI][321.457660]_bHDMI2PhySetingHandle guard it....
+[HDMI][321.490997]clock change interrupt detected, reset HDMI all!
+[HDMI][321.491266][Port4]vHDMI21PhyAnaSetting
+[HDMI][321.521615][PHY]Set analog use time 0.030308 s!>>>>>>>>>>
+[HDMI][321.524212]_bHDMI2PhySetingHandle guard it....
+[HDMI][321.537551]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][321.557691]_bHDMI2PhySetingHandle guard it....
+[HDMI][321.590956]_bHDMI2PhySetingHandle guard it....
+[HDMI][321.624264]_bHDMI2PhySetingHandle guard it....
+[HDMI][321.657626]clock change interrupt detected, reset HDMI all!
+[HDMI][321.657900][Port4]vHDMI21PhyAnaSetting
+[HDMI][321.688230][PHY]Set analog use time 0.030288 s!>>>>>>>>>>
+[HDMI][321.690971]_bHDMI2PhySetingHandle guard it....
+[HDMI][321.712535]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][321.724289]_bHDMI2PhySetingHandle guard it....
+[HDMI][321.757595]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][321.790964]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][321.824263]clock change interrupt detected, reset HDMI all!
+[HDMI][321.824541][Port4]vHDMI21PhyAnaSetting
+[HDMI][321.854956][PHY]Set analog use time 0.030360 s!>>>>>>>>>>
+[HDMI][321.857617]_bHDMI2PhySetingHandle guard it....
+[HDMI][321.877531]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][321.890912]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:181
+[HDMI][321.924251]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:181
+[HDMI][321.957634]_bHDMI2PhySetingHandle guard it....
+[HDMI][321.990913]clock change interrupt detected, reset HDMI all!
+[HDMI][321.991182][Port4]vHDMI21PhyAnaSetting
+[HDMI][322.021599][PHY]Set analog use time 0.030345 s!>>>>>>>>>>
+[HDMI][322.024333]_bHDMI2PhySetingHandle guard it....
+[HDMI][322.042561]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][322.057624]_bHDMI2PhySetingHandle guard it....
+[HDMI][322.090903]_bHDMI2PhySetingHandle guard it....
+[HDMI][322.124220]_bHDMI2PhySetingHandle guard it....
+[HDMI][322.157654]clock change interrupt detected, reset HDMI all!
+[HDMI][322.157926][Port4]vHDMI21PhyAnaSetting
+[HDMI][322.188265][PHY]Set analog use time 0.030298 s!>>>>>>>>>>
+[HDMI][322.190952]_bHDMI2PhySetingHandle guard it....
+[HDMI][322.212536]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][322.224236]_bHDMI2PhySetingHandle guard it....
+[HDMI][322.257077]P[4] detect TMDS clock no signal...
+[HDMI][322.290666][V20] P[4] TMDS clk change from 0 to 124470
+[HDMI][322.290694]TMDS clock change detected!
+[HDMI][322.290950]_bHDMI2PhySetingHandle guard it....
+[HDMI][322.323984]40xMode change detected!
+[HDMI][322.324273]_bHDMI2PhySetingHandle guard it....
+[HDMI][322.357598]_bHDMI2PhySetingHandle guard it....
+[HDMI][322.390901]eBand=16,b40xMode=1
+[HDMI][322.390938][Port4]vHDMI21PhyAnaSetting
+[HDMI][322.413077][PHY]Set analog use time 0.022104 s!>>>>>>>>>>
+[HDMI][322.424233]_bHDMI2PhySetingHandle guard it....
+[HDMI][322.437546]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][322.457660]_bHDMI2PhySetingHandle guard it....
+[HDMI][322.490903]_bHDMI2PhySetingHandle guard it....
+[HDMI][322.524213]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[DI] After adjust DI frc line value:361
+[HDMI][322.890361]HDMI port 4 enter stable, current is HDMI Mode, resolution is 2560 x 1440.
+[HDMI][322.890880][1;36mP[4] state from 2 change to 3[0m
+========P[4] Video Status========
+[V20]CKDT detected
+[V20]SCDT detected
+[V20]width: 2560
+[V20]height: 1440
+[V20]htotal: 2720
+[V20]base/real vtotal: 1525 / 1525
+[V20]base/real refresh rate: 120 / 120
+[V20]pixel freq: 498162000HZ
+[V20]progressive signal|HDMI mode|8 bit|RGB
+[V20]HDMI2.0 and Tx scrambling en
+[V20]TMDS clock ratio-1:40
+[V20]Av Mute:false
+========P[4] Audio Status========
+[V20]HDMI audio fifo underun
+[V20]Audio N=6144, CTS=497750, Fs=48K   
+[V20]Audio is PCM, 2 channel
+[V20]Audio status:mute
+========P[4] HDCP Status=========
+[HDMI][322.892566]hdcp1.4 crc check success
+[HDMI][322.893466]Check secure hdcp2.2 key valid
+[V20]HDCP key status: v1.4/v2.2 => valid/valid
+[V20] HDCP1.4 auth fail | No Hdcp2.2
+=======P[4] General Status=======
+[V20]5v:1, Hpd:1, TMDSClk:124470
+[V20]Range:0, Scan:2, AspactRatio:0, AFD:8
+[V20]ITC:1, ITCcontent:0, ALLM:0
+[V20]VIC:0, VRR index:26, NCCIRMode:1, VPOut:0
+[V20]__bHDMIState :3, HDMI DV state: 0
+[V20]VRR Info:FVA 0 M_CONST 0 VRR_EN 0 Base_vf 0
+[V20]VRR Info: RB 0 Base_Refresh_Rate 0 VrrMDx Vaule 0x00000000
+==============================
+[DVI][324.524358]Type 0 VSVDB found, ieee tag is 0xd04601!
+[DVI][324.524384]Type 0 Dolby VSVDB 0x9c6d5e84520b44 found!
+[NPTV]vDrvDolbySetSource 775 u1VdpId:0 u1Dolby_Mode:3 u1Omux_Source:4
+[NPTV]vDrvDolbySetSource 780,dv ip core is not be used now, no need to do disconnect!!
+[DVI][324.524458]Type 0 md: DVI_MODE_DONE_01 2PMode 0
+[HDMI][324.524471]select hdmi clock path as 0
+[DVI][324.524488]Type 0 vsync frequency: 120
+[DVI][324.524499]Type 0 hsync frequency: 1831
+[DVI][324.524511]Type 0 Htotal: 2720
+[DVI][324.524522]Type 0 Vtotal: 1525
+[DVI][324.524587]Type 0 Current hdr10Plus type is 0
+[NPTV]vDrvDolbySetSource 775 u1VdpId:0 u1Dolby_Mode:3 u1Omux_Source:4
+[NPTV]vDrvDolbySetSource 780,dv ip core is not be used now, no need to do disconnect!!
+[DVI][324.524645]Type 0 Current dolby hdr type is 0
+[DVI][324.524658]Type 0 mc2: DVI Change from 3 to 5!
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[1;35;40m [2K20_PQ_DBG] _vDrvWrapperPQSetPQGammaCurveIndex u32GammaCurveIndex = 1 [0m 
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[vDrvWrapperPQSetArg][1831][0]
+[TECHNI] Set TechniColorHDR On = 0 
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[DI] After adjust DI frc line value:361
+[DVI][324.557760]Type 0 mc: Mode Detect Done
+[DVI][324.557804]Type 0 md: DVI_MODE_DONE
+[DVI][324.557857][1;32mType 0 Main Mode Done[m
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]HDR10PlusModeChange:0
+[NPTV]vDrvIsHDR10Plus:0
+[NPTV]input gamma type is undefined...
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[DVI][324.558143]Type 0 activeport 4 IsDvi 1 eHDMICurrSwitch 4
+[DVI][324.558157]2D signal
+[DVI][324.558168]TDTV Input Mode: 0x       1
+[DVI][324.558179][E_TDTV_DECODER_INPUT_2D_P]
+[DVI][324.558193]sw: DVI Htotal: 2720
+[DVI][324.558205]sw: DVI Vtotal: 1525
+[DVI][324.558217]sw: DVI width: 2560
+[DVI][324.558228]sw: DVI height: 1440
+[DVI][324.558239]sw: DVI refresh rate: 120
+[DVI][324.558251]sw: DVI interlace/progressive: 0
+[DVI][324.558263]sw: DVI signal status: 3
+[DVI][324.558274]sw: _bDviTiming: 252
+[DVI][324.558286]sw: pixel clock: 498162000
+[DVI][324.558297]sw: _bDviVclk: 120
+[DVI][324.558308]sw: _wDviHclk: 1831
+[DVI][324.558321]sw: vsync frequency: 120
+[DVI][324.558333]sw: hsync frequency: 1831
+[DVI][324.558344]_bHDMIColorSpace (1=RGB , 0 =YCBCR) : 1
+[DVI][324.558357]sw: HDE Start: 113
+[DVI][324.558369]sw: VDE Start: 83
+[DVI][324.558379]_bDviChkState: 5
+[DVI][324.558394]sw: 2PLRMode: 0
+[DVI][324.558405]sw: DviByp Main 1 Sub 0
+[DVI][324.558416]Dolby vision status:0
+[DVI][324.558427]HDR10Plus status: 0
+m DVI
+m Signal Status = Stable
+m HTotal = 2720
+m source width = 2560
+m VTotal = 1525
+m source height = 1440
+m refresh-rate = 120
+m Timing = Not Support OR No Signal
+IsVga 1
+[NPTV]=========================
+[NPTV]Main HW status:
+[NPTV]omux Htotal/hde 2719 2560
+[NPTV]omux vtotal/vde 1524 1439
+[NPTV]Sub HW status:
+[NPTV]omux Htotal/hde 2719 2560
+[NPTV]omux vtotal/vde 1524 1439
+[NPTV]3rd HW status:
+[NPTV]omux Htotal/hde 2719 2560
+[NPTV]omux vtotal/vde 1524 1439
+[DVI][324.872577]Type 0 mc2: DVI Change from 5 to 1!
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[1;35;40m [2K20_PQ_DBG] _vDrvWrapperPQSetPQGammaCurveIndex u32GammaCurveIndex = 1 [0m 
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[vDrvWrapperPQSetArg][1831][0]
+[TECHNI] Set TechniColorHDR On = 0 
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[DI] After adjust DI frc line value:271
+[NPTV][vDrvLCESWinit] SW init successful u1LCEconstVarinit=1,u1LCESWInitialized=1
+[NPTV][vDrvLCEProc] local contrast bIsLCESRAMInit
+[NPTV][vDrvLCEInit] LCE init successful u2Width=3840,u2Height=1080
+[MJC]update main window 0,0,3840,1080
+[MJC]update MJC to 4K1K mode, in w/h(3840,1080)
+[MJC]update w/h(3840,1080)
+[MJC]MB_0=0x14
+[MJC]MB_1=0x1
+[MJC]MB_2=0x4
+[MJC]Mjc window update(1)
+[MJC]update in/out frame rate(120,120)
+[MJC]mail box busy time out<vMjcSetInoOutFrameRate>!
+[MJC]MB_0=0x12
+[MJC]MB_1=0x1
+[MJC]MB_2=0x1
+[NPTV][Performance]Stable, Change to VDO_STATE_IDLE #2 bSigMode = 3
+[NPTV]u1Dvi2GetHVAlignSetting:0
+[NPTV][Performance]+vDrvApplyVideoSetting()KDrv_XC_SetSignalStatus: 12262, Singal status change: No singal -> Singal
+Unknow Input Type 
+[elvis] Hal_SC_ip_software_reset
+(TZ_smi_ctrl_larb_96bit) larb_id=19, u4TimeOut=10
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=20, u4TimeOut=2
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=21, u4TimeOut=2
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=22, u4TimeOut=10
+[smi_ctrl_larb_96bit] bEnable = 0x1
+[_MDrv_PQ_InputSoureHDMI   645] bIsHDMI = 1, bIsHDMIPC = 0
+_MDrv_PQ_InputSoureHDMI hdr=0,srct=0 
+[Load PQ] Panel index=2, Source index=0
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+unknown IOCTL 10
+[_MDrv_HSYBin_Writereg][3867]
+[Load PQ: TMO] Panel index=2, Source index=1
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+vDrvWrapperXCSetGameMode:2048 bEnable:1 
+[elvis] Hal_SC_ip_software_reset
+(TZ_smi_ctrl_larb_96bit) larb_id=19, u4TimeOut=10
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=20, u4TimeOut=2
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=21, u4TimeOut=2
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=22, u4TimeOut=10
+[smi_ctrl_larb_96bit] bEnable = 0x1
+[NPTV]u4TargetLine = 2192
+[NPTV][Performance]-vDrvApplyVideoSetting()[NPTV][4KBE] Skip switch panel mode(14).
+[NPTV]vDrvCalPanelFrameRate u2VdoVTotal=1525 u4VdoFrameRate=120 u4PanelRatio=1
+[NPTV]vDrvCalPanelTiming: (DCLKType, FrameRate) = (2, 120) -> (2, 120)
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]HDR10PlusModeChange:0
+[NPTV]vDrvIsHDR10Plus:0
+[NPTV]DRVCUST_SetBT2020Sta u1BT2020Sta=0
+[NPTV]input gamma type is undefined...
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[DVI][324.892333]Type 0 VSVDB found, ieee tag is 0xc45dd8!
+[DVI][324.892347]Type 0 VRR VSVDB 0xC45DD8 found and enable!
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[1;35;40m [2K20_PQ_DBG] _vDrvWrapperPQSetPQGammaCurveIndex u32GammaCurveIndex = 1 [0m 
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[vDrvWrapperPQSetArg][1831][0]
+[TECHNI] Set TechniColorHDR On = 0 
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[DI] After adjust DI frc line value:271
+MTVDEC_GetInfo() fail, ret=-2[HDMI][324.897012]hdmi module mute: 1->0.
+[HDMI][324.897032]audio module mute: 1->0.
+[DI] After adjust DI frc line value:271
+[NPTV]extern frame delay = 0
+[NPTV]bDrvVideoGetFrameDelay x10 frame (PScan 0, Scaler 20, MJC 7), (i2FrameDelayTime 22)
+[NPTV]Total frame delay u2TotalDelayCnt :3 u1InFrmRate:120 u1OutFrmRate:120
+[DI]u1Framedly:3,i1Delay:3
+[AUD]dec id = 0, handle = -140926592, ffffffc0f635bd14
+[AUD]L:223 _AudSrmStableCb() is called. u2VdpDelay:22
+[AUD]dec id = 1, handle = -141475712, ffffffc0f635bd14
+[AUD][_CalculateOutputDeviceDelay]adjust delay=-1301 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-1301 need >= 0![AUD][_SetOutputDeviceDelay]: dev2 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:2
+[AUD][_SetOutputDeviceDelay]: dev3 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:3
+[AUD][_SetOutputDeviceDelay]: dev4 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:4
+[AUD][_SetOutputDeviceDelay]: dev5 Aproc set delay banks:0
+[AUD][_SetOutputDeviceDelay]: dev6 Aproc set delay banks:0
+
+MTVDEC_GetInfo() fail, ret=-2
+[AVC] Notify HDMI2 has Audio
+MTVDEC_GetInfo() fail, ret=-2
+{SM-CM} [SM] VS: _sm_video_hdlr_get(SM_VSH_GET_TYPE_VIDEO_SRC_RESOLUTION), rm_get(TV_DEC_GET_TYPE_COLOR_SYS) fail, i4_ret = -16
+<MTKTVAPI><a_mtktvapi_config_update_nfy,11039> notifyId=7 [AUD]CMD: set Stop: Dsp(0) Dec(0)
+[AUD][_CalculateOutputDeviceDelay]adjust delay=-1301 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-1301 need >= 0![AUD][_SetOutputDeviceDelay]: dev6 Aproc set delay banks:0
+
+{SB_CE} {_svctx_listener_nfy_fct 1745} send SB_DVBC_MSG_SVC_SELECTED_NFY(12): e_svctx_cond 3 
+{SB_CE} 		[1748] msg is sent from svctx. the listener of scan eng works.
+{SB_CE} [6843] SB_DVBC_MSG_SVC_SELECTED_NFY 
+<MTKTVAPI><a_mtktvapi_config_update_nfy,11039> notifyId=1 [AUD][_SetOutputDeviceDelay]: dev7 Aproc set delay banks:151
+[AUD][AUD][_SetOutputDeviceDelay]: dev7 Aproc set delay banks:151
+[AUD][_SetOutputDeviceDelay]: dev9 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:9
+[AUD][_SetOutputDeviceDelay]: dev10 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:10
+[AUD][_SetOutputDeviceDelay]: dev11 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:11
+[_SetOutputDeviceDelay]: dev9 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:9
+
+[DI] After adjust DI frc line value:271
+[AUD]_AudSendDspFlowControlCmd receive stop cmd
+[AUD]Aud dsp(0) dec(0) AUD_Command <AUD_CMD_STOP> done
+[AUD]dec id = 0, handle = -140926592, ffffffc0f7467cd4
+[AUD]====> vAprocDec_Close 0
+[AUD_MS12_PCMR_DISCARD_DRC][4243] xiaomi, bEnable(1)
+[AUD][_AUD_MS12_PCMR_DISCARD_DRC:7850]u4Base(0xffffff800d041000),u4Offset(0x886b40),pi4Addr(0xffffff800d8c7b40),bEnable(1)
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD][_AUD_RiscIecBufInit:1480]IEC Buffer Init u4Str(0x9144eab0), u4End(0xa), u4Size(0x10), u4SiBase(0x9144eee0)
+******Amplifier_TI5805_SWMute(0)
+[NPTV]Enable AdaptiveLuma
+******Amplifier_TI5805_SWMute(0)
+******Amplifier_TI5805_SWMute(0)
+******Amplifier_TI5805_SWMute(0)
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD][_AUD_RiscIecBufInit:1480]IEC Buffer Init u4Str(0x9144eab0), u4End(0xa), u4Size(0x10), u4SiBase(0x9144eee0)
+******Amplifier_TI5805_SWMute(0)
+[HDMI][325.285327]P[4]HDMI_HDCP22:HDCP ake sent received!
+******Amplifier_TI5805_SWMute(0)
+[HDMI][325.386589]P[4]HDMI_HDCP22:HDCP auth done!
+******Amplifier_TI5805_SWMute(0)
+******Amplifier_TI5805_SWMute(0)
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+{SVCTX:RM_CLIENT}Info: svctx_rm_release@L5219. e_res_group(2) 
+{SVCTX:RM_CLIENT}Info: svctx_rm_release@L5229. No need release for group(2)
+acfg.c:_acfg_app_process_msg_fct: pre picture mode i2_val =10,i2_switch=0,t_hdmi_infoframe:b_valid=1,aui1_info_frame_data[2]=136,aui1_info_frame_data[4]=0,ui1_allm_config=0,
+<MTKTVAPI><a_mtktvapi_config_update_nfy,11039> notifyId=3 
+{SB_CE} [6866] SET Internal ret changing [NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]Not HDR10 Plus
+[NPTV]XCCurHdrType:0
+[NPTV]u1hdrtype:0
+[VDP]------- in VDP_DrvHDRChgedNotify--------
+[NPTV]HDMI vDrvHDREOTFChangeNotify-->u2EotfValue:0 
+
+{SB_CE} [6908] crnt_svl_id = 0, crnt_svl_rec_id = 0
+[MWIF2-VDP]------- _VdpHDRTYPEChangedNotify--------
+
+[ACFG_TEST] chg_timing c_scc_vid_set_hdr_eotf i4_ret[0]
+[dragon]:_acfg_scc_vid_hdr_vdp_nfy:hdr=0
+[AUD]CMD: set DecType: Dsp(0) Dec(0) StreamFrom(HDMI) Fmt(AUD_DEC_FMT_PCM)
+[AUD]u2format(0x0),_AudGetStrFormat(0)=3
+[AUD]_GetMasterDevices start
+[AUD]_AUD_SetInputSourceGain Src(5),Dec0 to 0x7fffff
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]HDR10PlusModeChange:0
+[NPTV]vDrvIsHDR10Plus:0
+[NPTV]input gamma type is undefined...
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]_PE_SetVdoPictureMode 10
+[NPTV]SmartPic Index Error!
+MTVDO_SetPQ() fail, ret=-1
+<ACFG>acfg_video_update:7721,update APP_CFG_RECID_CLR_TEMP i2_app_val=1 SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 1 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+MTDRVCUST_OptQuery() fail, ret=-1
+[AUD]Aud dsp(0) dec(0) AUD_Command <AUD_CMD_LOADCODE> done
+[AUD]CMD: set DecType: Dsp(0) Dec(0) StreamFrom(HDMI) Fmt(AUD_DEC_FMT_PCM)
+[AUD]u2format(0x0),_AudGetStrFormat(0)=3
+[AUD]_GetMasterDevices start
+[AUD]_AUD_SetInputSourceGain Src(5),Dec0 to 0x7fffff
+[TECHNI] Set TechniColorHDR On = 0 
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+<ACFG>acfg_video_get_color_index:2901,ui1_pic_mode=10,color index=5
+<ACFG>APP_CFG_RECID_VID_COLOR_INDEX (i2_app_val = 5 s_disp_name:snk_MainDisp)
+<ACFG><acfg_video_update,7681> update picture mode done .. 
+{LIANG} acfg_video.c:acfg_video_update:8044 acfg_get_svctx(s_disp_name=snk_MainDisp)
+MTVDEC_GetInfo() fail, ret=-2[TECHNI] Set TechniColorHDR On = 0 
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+
+acfg.c:_acfg_app_process_msg_fct:3482 ACFG_MSG_SCC_VID_HDR_EVNT e_nfy_cond=0,pt_msg_hdr_evnt->e_vid_hdr_type=0,b_HDR_to_SDR=0
+[AUD]Aud dsp(0) dec(0) AUD_Command <AUD_CMD_LOADCODE> done
+[AUD]CMD: set AVSyncMode: Dsp(0) Dec(0) Mode(AV_SYNC_SLAVE)
+[AUD]CMD: set Play Asyn: Dsp(0) Dec(0)
+[AUD]====> vAprocDecc_Open 0
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(0)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(1)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(2)
+[AUD_MS12_PCMR_DISCARD_DRC][4243] xiaomi, bEnable(1)
+[AUD][_AUD_MS12_PCMR_DISCARD_DRC:7850]u4Base(0xffffff800d041000),u4Offset(0x886b40),pi4Addr(0xffffff800d8c7b40),bEnable(1)
+[AUD_MS12_PCMR_COMPRESSOR_PROFILE][4339] xiaomi, u4Cprof(0)
+[AUD][_AUD_DolbyMS12_Loudness:2134]u1DecId(0)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(0)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(1)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(2)
+[AUD]dec id = 0, handle = -140926592, ffffffc0f7467c94
+[AUD][AUD][SC]SILENCECTRL_FIX_THRESHOLD=1048576
+[AUD][SC]SILENCECTRL_WAIT_NUM=375
+[AUD][SC]SILENCECTRL_RELEASE_STEP=129055
+[AUD][SC]SILENCECTRL_ATTACK_STEP=64035
+[AUD][SC]SILENCECTRL_ATTACK_GAIN=0
+Aud dsp(0) dec(0) AUD_Command <AUD_CMD_PLAY> done
+[AUD]dec id = 0, handle = -140926592, ffffffc0f7467cd4
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(0)
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(1)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(2)
+[AUD_MS12_PCMR_DISCARD_DRC][4243] xiaomi, bEnable(1)
+[AUD][_AUD_MS12_PCMR_DISCARD_DRC:7850]u4Base(0xffffff800d041000),u4Offset(0x886b40),pi4Addr(0xffffff800d8c7b40),bEnable(1)
+[AUD_MS12_PCMR_COMPRESSOR_PROFILE][4339] xiaomi, u4Cprof(0)
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD]_AudAutoModeConvertIecCfg:IecCfg:1
+[AUD][_AUD_RiscIecBufInit:1480]IEC Buffer Init u4Str(0x9144eab0), u4End(0xa), u4Size(0x10), u4SiBase(0x9144eee0)
+[AUD][_CalculateOutputDeviceDelay]adjust delay=-3718 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-3718 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-2413 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-2413 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-2413 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-2413 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-2413 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-2413 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-2413 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-2413 need >= 0![AUD][_SetOutputDeviceDelay]: dev2 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:2
+[AUD][_SetOutputDeviceDelay]: dev3 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:3
+[AUD][_SetOutputDeviceDelay]: dev4 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:4
+[AUD][_SetOutputDeviceDelay]: dev5 Aproc set delay banks:0
+[AUD][_SetOutputDeviceDelay]: dev6 Aproc set delay banks:0
+[AUD][_SetOutputDeviceDelay]: dev7 Aproc set delay banks:113
+[AUD][_SetOutputDeviceDelay]: dev9 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:9
+[AUD][_SetOutputDeviceDelay]: dev10 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:10
+[AUD][_SetOutputDeviceDelay]: dev11 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:11
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD]_AudAutoModeConvertIecCfg:IecCfg:1
+[AUD][_AUD_RiscIecBufInit:1480]IEC Buffer Init u4Str(0x9144eab0), u4End(0xa), u4Size(0x10), u4SiBase(0x9144eee0)
+******Amplifier_TI5805_SWMute(0)
+[AUD]dec id = 0, handle = -140926592, ffffffc0f7533d14
+[AUD]AUD_DrvMMAoutEnableNotify: u1DecId(0), fgResume(0)
+******Amplifier_TI5805_SWMute(0)
+[AUD]<< HDMI/SPDIFIN undetect >>
+******Amplifier_TI5805_SWMute(0)
+******Amplifier_TI5805_SWMute(0)
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+MTVDEC_GetInfo() fail, ret=-2
+{AUDIO_INFO} {AUDIO_INFO} audio_info.c:_audio_info_update_analog_audio_info:2458 FALSE == b_is_ready
+{AUDIO_INFO} {AUDIO_INFO} audio_info.c:_audio_info_update_analog_audio_info:2458 FALSE == b_is_ready
+{AUDIO_INFO} {AUDIO_INFO} audio_info.c:_audio_info_update_analog_audio_info:2458 FALSE == b_is_ready
+{AUDIO_INFO} {AUDIO_INFO} audio_info.c:_audio_info_update_analog_audio_info:2458 FALSE == b_is_ready
+{AUDIO_INFO} {AUDIO_INFO} audio_info.c:_audio_info_update_analog_audio_info:2458 FALSE == b_is_ready
+[MUTE]set xc delay u1UnmuteCnt[0]:2
+[MUTE]u1UnmuteCnt[0] 2
+[MUTE]u1UnmuteCnt[0] 1
+[MUTE][Performance]Mute State Changed :Path(0), Latest module(0), Mute State(1) --> (0)
+[VDP]VDP_VideoUnmuteNotify DisableOSD
+[OSD pid:2791 comm:MLVdo_thread]OSD_SC_Scale: plane:1, scaler enable:1, srcWidth:0, srcHeight:0, dstWidth:0, dstHeight:0
+[VDP]VDP_VideoUnmuteNotify DisableOSD
+[OSD pid:2791 comm:MLVdo_thread]OSD_SC_Scale: plane:1, scaler enable:1, srcWidth:0, srcHeight:0, dstWidth:0, dstHeight:0
+[MUTE]MJC_MUTE(0)
+[MWIF2-VDP]{_VdpUnmuteStatusNotify, 5158} Notify VID_PLA_COND_MUTE_ALL_FINISHED to SM !!! u4VdpId 0, u4Arg1 1 
+[MWIF2-VDP]{_VdpUnmuteStatusNotify, 5152} return reason: NULL == _arMwVdp[1].pfEosNfy 
+[AUD][PLAY_MUTE](0)Got video unmute message
+[AUD][PLAY_MUTE](0)!!gogogo Audio UnMute!! i2UnMuteCount = 0 u4VdoMuteFlag = 1[OSD pid:2791 comm:MLVdo_thread]OSD_SC_Scale: plane:1, scaler enable:1, srcWidth:0, srcHeight:0, dstWidth:0, dstHeight:0
+[NPTV]##u4IsDoviHDR=0 ###
+{ACFG} mtktvapi_config.c:a_mtktvapi_config_get_value:6727 dolby_vision and CFG_GRP_DOVI_INFO get *pi4_value =0 
+[NPTV]##u4IsDoviHDR=0 ###
+{ACFG} mtktvapi_config.c:a_mtktvapi_config_get_value:6727 dolby_vision and CFG_GRP_DOVI_INFO get *pi4_value =0 
+CRC:0x3b762379
+[NPTV]Disable AdaptiveLuma
+[NPTV]Enable AdaptiveLuma
+[NPTV]Disable AdaptiveLuma
+[NPTV]##u4IsDoviHDR=0 ###
+{ACFG} mtktvapi_config.c:a_mtktvapi_config_get_value:6727 dolby_vision and CFG_GRP_DOVI_INFO get *pi4_value =0 
+[NPTV]Enable AdaptiveLuma
+[NPTV]Disable AdaptiveLuma
+[NPTV]Enable AdaptiveLuma
+[NPTV]Disable AdaptiveLuma
+[NPTV]Enable AdaptiveLuma
+[NPTV]Disable AdaptiveLuma
+[NPTV]Enable AdaptiveLuma
+[NPTV]Disable AdaptiveLuma
+[DVI][351.064557]AV_MUTE force mute
+[HDMI][351.080611]HDMI port 4 sync or clock lost--------
+[HDMI][351.080636]hdmi module mute: 0->1.
+[HDMI][351.080656]audio module mute: 0->1.
+[HDMI][351.080668][1;36mP[4] state from 3 change to 2[0m
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]Not HDR10 Plus
+[NPTV]XCCurHdrType:0
+[NPTV]u1hdrtype:0
+[VDP]------- in VDP_DrvHDRChgedNotify--------
+[NPTV]HDMI vDrvHDREOTFChangeNotify-->u2EotfValue:255 
+[DVI][351.080851]Type 0 mc: h/v total unstable 1 
+[DVI][351.080866]Type 0 mc: h/v active unstable 1 
+[DVI][351.080880]Type 0 mc: pixel clk unstable 1 
+[DVI][351.080893]Type 0 dvi2_mc:hdmimode change from 2 to 1
+[DVI][351.080907]Type 0 dvi2_mc:hdmi range change from 2 to 0
+[DVI][351.080922]Type 0 dvi2_mc:color metry change from 19 to 0
+[DVI][351.080943]Type 0 mc2: DVI Change from 1 to 2!
+[MWIF2-VDP]------- _VdpHDRTYPEChangedNotify--------
+[dragon]:_acfg_scc_vid_hdr_vdp_nfy:hdr=0
+acfg.c:_acfg_app_process_msg_fct:3482 ACFG_MSG_SCC_VID_HDR_EVNT e_nfy_cond=0,pt_msg_hdr_evnt->e_vid_hdr_type=0,b_HDR_to_SDR=0
+[HDMI][351.088469][V20] P[4] TMDS clk change from 0 to 302163
+[HDMI][351.088486]TMDS clock change detected!
+[HDMI][351.088741]_bHDMI2PhySetingHandle guard it....
+[DVI][351.088954]Type 0 VSVDB found, ieee tag is 0xd04601!
+[DVI][351.088975]Type 0 Dolby VSVDB 0x9c6d5e84520b44 found!
+[NPTV]vDrvDolbySetSource 775 u1VdpId:0 u1Dolby_Mode:3 u1Omux_Source:4
+[NPTV]vDrvDolbySetSource 780,dv ip core is not be used now, no need to do disconnect!!
+[DVI][351.089019]Type 0 ____main mode change_____
+[DVI][351.089031]Type 0 mc2: DVI Change from 2 to 3!
+[DI] After adjust DI frc line value:136
+{AUDIO_INFO} {AUDIO_INFO} audio_info.c:_audio_info_update_analog_audio_info:2458 FALSE == b_is_ready
+{AUDIO_INFO} {AUDIO_INFO} audio_info.c:_audio_info_update_analog_audio_info:2458 FALSE == b_is_ready
+[NPTV]extern frame delay = 0
+[NPTV]bDrvVideoGetFrameDelay x10 frame (PScan 0, Scaler 20, MJC 7), (i2FrameDelayTime 22)
+[NPTV]Total frame delay u2TotalDelayCnt :3 u1InFrmRate:120 u1OutFrmRate:120
+[DI]u1Framedly:3,i1Delay:3
+[HDMI][351.100384]40xMode change detected!
+[HDMI][351.100641]_bHDMI2PhySetingHandle guard it....
+KDrv_XC_SetSignalStatus: 12262, Singal status change: Singal -> No singal
+[NPTV][Performance]***** MAIN Change to VDO_STATE_WAIT_MODE_DET 
+[NPTV]*******========source detect initial
+[PDWNC] set vga pdwnc module
+[DI] After adjust DI frc line value:181
+[AUD]dec id = 0, handle = -140926592, ffffffc0f635bd14
+[AUD]dec id = 1, handle = -141475712, ffffffc0f635bd14
+[HDMI][351.112794]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:181
+[HDMI][351.129465]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.146141]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.162825]eBand=13,b40xMode=0
+[HDMI][351.162849][Port4]vHDMI21PhyAnaSetting
+[HDMI][351.193210][PHY]Set analog use time 0.030323 s!>>>>>>>>>>
+[HDMI][351.194023]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.196142]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.212876]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.217580]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][351.229807]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.246165]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.262786]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.279477]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.296287]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.312835]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.329450]clock change interrupt detected, reset HDMI all!
+[HDMI][351.329714][Port4]vHDMI21PhyAnaSetting
+[HDMI][351.360274][PHY]Set analog use time 0.030526 s!>>>>>>>>>>
+[HDMI][351.361832]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.362687]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.379423]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][351.382567]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][351.396087]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:181
+[HDMI][351.412799]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.429395]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.446062]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.462716]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.479418]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.496060]clock change interrupt detected, reset HDMI all!
+[HDMI][351.496328][Port4]vHDMI21PhyAnaSetting
+[HDMI][351.526686][PHY]Set analog use time 0.030322 s!>>>>>>>>>>
+[HDMI][351.528343]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.529334]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.546051]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.552538]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][351.562728]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.579582]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.596399]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.612703]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.629345]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.645999]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][351.662692]clock change interrupt detected, reset HDMI all!
+[HDMI][351.662959][Port4]vHDMI21PhyAnaSetting
+[HDMI][351.693720][PHY]Set analog use time 0.030725 s!>>>>>>>>>>
+[DI] After adjust DI frc line value:181
+[HDMI][351.695538]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.696202]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.712674]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.722532]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][351.729341]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.745976]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.762621]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.779307]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.795995]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.812618]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.829287]clock change interrupt detected, reset HDMI all!
+[HDMI][351.829554][Port4]vHDMI21PhyAnaSetting
+[HDMI][351.859951][PHY]Set analog use time 0.030352 s!>>>>>>>>>>
+[HDMI][351.861600]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.862634]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.879277]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.882566]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][351.895983]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.912705]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.929274]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.945948]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.962634]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.979273]_bHDMI2PhySetingHandle guard it....
+[HDMI][351.995953]clock change interrupt detected, reset HDMI all!
+[HDMI][351.996220][Port4]vHDMI21PhyAnaSetting
+[HDMI][352.026556][PHY]Set analog use time 0.030296 s!>>>>>>>>>>
+[HDMI][352.028363]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.029244]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.045892]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.047564]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][352.062555]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.079277]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.095853]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.112538]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.129254]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.145878]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.162581]clock change interrupt detected, reset HDMI all!
+[HDMI][352.162848][Port4]vHDMI21PhyAnaSetting
+[HDMI][352.193196][PHY]Set analog use time 0.030315 s!>>>>>>>>>>
+[HDMI][352.194774]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.195875]_bHDMI2PhySetingHandle guard it....
+[HDMI][HDMI][352.212560]_bHDMI2PhySetingHandle guard it....
+[352.212589]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][352.229139]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.245841]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.262488]_bHDMI2PhySetingHandle guard it....
+[NPTV]##u4IsDoviHDR=0 ###
+{ACFG} mtktvapi_config.c:a_mtktvapi_config_get_value:6727 dolby_vision and CFG_GRP_DOVI_INFO get *pi4_value =0 
+[HDMI][352.279200]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.295822]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.312571]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.329137]clock change interrupt detected, reset HDMI all!
+[HDMI][352.329408][Port4]vHDMI21PhyAnaSetting
+[HDMI][352.359752][PHY]Set analog use time 0.030303 s!>>>>>>>>>>
+[HDMI][352.361337]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.362422]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.379139]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.382567]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][352.395784]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.412482]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.429119]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.445798]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.462428]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.479095]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.495766]clock change interrupt detected, reset HDMI all!
+[HDMI][352.496053][Port4]vHDMI21PhyAnaSetting
+[HDMI][352.526387][PHY]Set analog use time 0.030296 s!>>>>>>>>>>
+[HDMI][352.527986]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.529062]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.545758]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.547542]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][352.562434]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.579060]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.595784]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.612385]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.629063]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.645712]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.662410]clock change interrupt detected, reset HDMI all!
+[HDMI][352.662695][Port4]vHDMI21PhyAnaSetting
+[HDMI][352.693028][PHY]Set analog use time 0.030293 s!>>>>>>>>>>
+[HDMI][352.694686]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.695738]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.712364]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.717531]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][352.729053]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.745689]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.762374]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.779033]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.795715]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.812336]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.829036]clock change interrupt detected, reset HDMI all!
+[HDMI][352.829304][Port4]vHDMI21PhyAnaSetting
+[HDMI][352.859642][PHY]Set analog use time 0.030302 s!>>>>>>>>>>
+[HDMI][352.861235]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.862290]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.878958]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.882538]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][352.895684]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.912305]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.928981]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.945758]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.962307]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.978969]_bHDMI2PhySetingHandle guard it....
+[HDMI][352.995636]clock change interrupt detected, reset HDMI all!
+[HDMI][352.995902][Port4]vHDMI21PhyAnaSetting
+[HDMI][353.026250][PHY]Set analog use time 0.030307 s!>>>>>>>>>>
+[HDMI][353.027920]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.028935]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.042572]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][353.045634]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.062266]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.078941]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.095584]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.112276]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.128894]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.145625]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.162242]clock change interrupt detected, reset HDMI all!
+[HDMI][353.162527][Port4]vHDMI21PhyAnaSetting
+[HDMI][353.192882][PHY]Set analog use time 0.030311 s!>>>>>>>>>>
+[HDMI][353.194529]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.195528]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.212233]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.222531]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][353.228872]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.245609]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.262267]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.278890]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.295516]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.312221]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.328897]clock change interrupt detected, reset HDMI all!
+[HDMI][353.329165][Port4]vHDMI21PhyAnaSetting
+[HDMI][353.359509][PHY]Set analog use time 0.030308 s!>>>>>>>>>>
+[HDMI][353.361062]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.362181]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.378862]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.387545]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][353.395512]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.412190]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.428872]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.445481]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.462209]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.478824]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.495517]clock change interrupt detected, reset HDMI all!
+[HDMI][353.495785][Port4]vHDMI21PhyAnaSetting
+[HDMI][353.526250][PHY]Set analog use time 0.030429 s!>>>>>>>>>>
+[HDMI][353.527824]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.528794]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.545451]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.547561]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][353.562234]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.578865]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.595461]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.612099]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.628785]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.645461]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][353.662148]clock change interrupt detected, reset HDMI all!
+[HDMI][353.662415][Port4]vHDMI21PhyAnaSetting
+[HDMI][353.692814][PHY]Set analog use time 0.030355 s!>>>>>>>>>>
+[DI] After adjust DI frc line value:181
+[HDMI][353.694622]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.695529]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.712091]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.717527]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][353.728786]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.745467]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.762059]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.778831]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.795389]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.812119]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.828719]clock change interrupt detected, reset HDMI all!
+[HDMI][353.828985][Port4]vHDMI21PhyAnaSetting
+[HDMI][353.859323][PHY]Set analog use time 0.030301 s!>>>>>>>>>>
+[HDMI][353.860880]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.861993]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.878715]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][353.882542]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][353.895399]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:181
+[HDMI][353.912320]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.928679]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.945411]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.962024]_bHDMI2PhySetingHandle guard it....
+[HDMI][353.978694]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][353.995366]clock change interrupt detected, reset HDMI all!
+[HDMI][353.995631][Port4]vHDMI21PhyAnaSetting
+[HDMI][354.026021][PHY]Set analog use time 0.030347 s!>>>>>>>>>>
+[DI] After adjust DI frc line value:181
+[HDMI][354.028018]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.029009]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.045343]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.047568]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][354.061995]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.078665]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.095320]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][354.112026]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:271
+[HDMI][354.128698]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.145308]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.162015]clock change interrupt detected, reset HDMI all!
+[HDMI][354.162299][Port4]vHDMI21PhyAnaSetting
+[HDMI][354.192732][PHY]Set analog use time 0.030369 s!>>>>>>>>>>
+[DI] After adjust DI frc line value:136
+[HDMI][354.194469]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.195340]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:181
+[HDMI][354.212090]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.217564]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][354.228642]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.245278]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.261971]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.278590]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.295296]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.312021]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.328620]clock change interrupt detected, reset HDMI all!
+[HDMI][354.328889][Port4]vHDMI21PhyAnaSetting
+[HDMI][354.359257][PHY]Set analog use time 0.030328 s!>>>>>>>>>>
+[HDMI][354.360895]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.361893]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.378663]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.382544]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][354.395275]_bHDMI2PhySetingHandle guard it....
+[DVI][354.395384]Type 0 mc: from activity detected to force mode done
+[DVI][354.395535]Type 0 VSVDB found, ieee tag is 0xd04601!
+[DVI][354.395548]Type 0 Dolby VSVDB 0x9c6d5e84520b44 found!
+[NPTV]vDrvDolbySetSource 775 u1VdpId:0 u1Dolby_Mode:3 u1Omux_Source:4
+[NPTV]vDrvDolbySetSource 780,dv ip core is not be used now, no need to do disconnect!!
+[DVI][354.395606][1;32mType 0 Main Mode Done[m
+[HDMI][354.411913]_bHDMI2PhySetingHandle guard it....
+[NPTV][Performance]Stable, Change to VDO_STATE_IDLE #2 bSigMode = 0
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]HDR10PlusModeChange:0
+[NPTV]vDrvIsHDR10Plus:0
+{scdb} error at /home/work2/walle-mtk9950/vendor/mediatek/proprietary_tv/apollo/middleware/open/common/scdb/scdb_api.c:1887,ret=-6,h_scdb:18026527
+{scdb} error at /home/work2/walle-mtk9950/vendor/mediatek/proprietary_tv/apollo/middleware/open/common/scdb/scdb_api.c:1887,ret=-6,h_scdb:18026527
+{scdb} error at /home/work2/walle-mtk9950/vendor/mediatek/proprietary_tv/apollo/middleware/open/common/scdb/scdb_api.c:1887,ret=-6,h_scdb:17502276[AUD]CMD: set Stop: Dsp(0) Dec(0)
+
+[HDMI][354.428595]_bHDMI2PhySetingHandle guard it....
+[AUD]_AudSendDspFlowControlCmd receive stop cmd
+[AUD]Aud dsp(0) dec(0) AUD_Command <AUD_CMD_STOP> done
+[AUD]====> vAprocDec_Close 0
+[AUD_MS12_PCMR_DISCARD_DRC][4243] xiaomi, bEnable(1)
+[AUD][_AUD_MS12_PCMR_DISCARD_DRC:7850]u4Base(0xffffff800d041000),u4Offset(0x886b40),pi4Addr(0xffffff800d8c7b40),bEnable(1)
+[AUD]dec id = 0, handle = -140926592, ffffffc0f7467cd4
+[HDMI][354.445238]_bHDMI2PhySetingHandle guard it....
+{SVCTX:RM_CLIENT}Info: svctx_rm_release@L5219. e_res_group(2) 
+{SVCTX:RM_CLIENT}Info: svctx_rm_release@L5229. No need release for group(2)[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+
+{SVCTX:RM_CLIENT}Info: svctx_rm_release@L5219. e_res_group(2) 
+{SVCTX:RM_CLIENT}Info: svctx_rm_release@L5229. No need release for group(2)
+[HDMI][354.461899]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.478537]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.495215]clock change interrupt detected, reset HDMI all!
+[HDMI][354.495476][Port4]vHDMI21PhyAnaSetting
+[HDMI][354.525801][PHY]Set analog use time 0.030290 s!>>>>>>>>>>
+[HDMI][354.527834]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.528532]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.545249]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.547563]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][354.561862]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.578520]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.595411]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.612242]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.628503]_bHDMI2PhySetingHandle guard it....
+[HDMI][354.645224]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[DI] After adjust DI frc line value:271
+MTVDEC_GetInfo() fail, ret=-2
+<MTKTVAPI><a_mtktvapi_config_update_nfy,11039> notifyId=6 
+<MTKTVAPI><a_mtktvapi_config_update_nfy,11039> notifyId=1 
+{NAVIGATOR} <NAV>Err: current lock priority is higher than the request. request pri = 70, current pri = 50 
+[DVI][354.778569]Type 0 mc: from no signal to wait stable
+[DVI][354.778599]Type 0 mc2: DVI Change from 0 to 3!
+[HDMI][354.794657]HDMI port 4 enter stable, current is HDMI Mode, resolution is 3200 x 1440.
+[HDMI][354.797212][1;36mP[4] state from 2 change to 3[0m
+========P[4] Video Status========
+[V20]CKDT detected
+[V20]SCDT detected
+[V20]width: 3200
+[V20]height: 1440
+[V20]htotal: 3400
+[V20]base/real vtotal: 1481 / 1481
+[V20]base/real refresh rate: 60 / 60
+[V20]pixel freq: 301957000HZ
+[V20]progressive signal|HDMI mode|8 bit|[HDMI]RGB
+[V20]HDMI2.0 and Tx scrambling en
+[V20]TMDS clock ratio-1:10
+[V20]Av Mute:false
+========P[4] Audio Status========
+[V20]HDMI audio fifo ok
+[V20]Audio N=6144, CTS=301875, Fs=48K   
+[V20]Audio is PCM, 2 channel
+[V20]Audio status:mute
+========P[4] HDCP Status=========
+[354.797323]P[4]HDMI_HDCP22:HDCP auth done!
+[HDMI][354.797337]P[4]HDMI_HDCP22:HDCP ake sent received!
+[HDMI][354.801831]hdcp1.4 crc check success
+[HDMI][354.802767]Check secure hdcp2.2 key valid
+[V20]HDCP key status: v1.4/v2.2 => valid/valid
+[V20] HDCP1.4 auth fail | Hdcp2.2 auth done
+=======P[4] General Status=======
+[V20]5v:1, Hpd:1, TMDSClk:302163
+[V20]Range:0, Scan:2, AspactRatio:0, AFD:8
+[V20]ITC:1, ITCcontent:0, ALLM:0
+[V20]VIC:0, VRR index:255, NCCIRMode:1, VPOut:0
+[V20]__bHDMIState :3, HDMI DV state: 0
+[V20]VRR Info:FVA 0 M_CONST 0 VRR_EN 0 Base_vf 0
+[V20]VRR Info: RB 0 Base_Refresh_Rate 0 VrrMDx Vaule 0x00000000
+==============================
+[HDMI][354.811820]hdmi module mute: 1->0.
+[HDMI][354.811856]audio module mute: 1->0.
+[HDMI][354.862562]P[4]24218 hdcp errors captured, increase err count.
+[HDMI][355.117554]P[4]12590 hdcp errors captured, increase err count.
+[HDMI][355.372564]P[4]12586 hdcp errors captured, increase err count.
+[DVI][355.628483]Type 0 VSVDB found, ieee tag is 0xd04601!
+[DVI][355.628510]Type 0 Dolby VSVDB 0x9c6d5e84520b44 found!
+[NPTV]vDrvDolbySetSource 775 u1VdpId:0 u1Dolby_Mode:3 u1Omux_Source:4
+[NPTV]vDrvDolbySetSource 780,dv ip core is not be used now, no need to do disconnect!!
+[DVI][355.628577]Type 0 ____main mode change_____
+[DVI][355.628592]Type 0 md: DVI_MODE_DONE_01 2PMode 0
+[HDMI][355.628604]select hdmi clock path as 0
+[DVI][355.628620]Type 0 vsync frequency: 60
+[DVI][355.628631]Type 0 hsync frequency: 888
+[DVI][355.628641]Type 0 Htotal: 3400
+[DVI][355.628652]Type 0 Vtotal: 1481
+[DVI][355.628666]Type 0  timing search 3
+[DVI][355.628677]Type 0 bSearch= 31
+[DVI][355.628688]Type 0 _wDviHtotal= 3400
+[DVI][355.628699]Type 0 Get_VGAMODE_IHTOTAL= 1650
+[DVI][355.628709]Type 0 bDVIGetHeight()= 1440,_wHeight= 1440
+[DVI][355.628721]Type 0 Get_VGAMODE_IPV_LEN=1470
+[DVI][355.628731]Type 0 fgHDMIinterlaced: 0,_bInterlaced:0
+[DVI][355.628743]Type 0  timing search 3
+[DVI][355.628753]Type 0 bSearch= 73
+[DVI][355.628763]Type 0 _wDviHtotal= 3400
+[DVI][355.628773]Type 0 Get_VGAMODE_IHTOTAL= 1650
+[DVI][355.628784]Type 0 bDVIGetHeight()= 1440,_wHeight= 1440
+[DVI][355.628795]Type 0 Get_VGAMODE_IPV_LEN=1440
+[DVI][355.628806]Type 0 fgHDMIinterlaced: 0,_bInterlaced:0
+[DVI][355.628876]Type 0 Current hdr10Plus type is 0
+[NPTV]vDrvDolbySetSource 775 u1VdpId:0 u1Dolby_Mode:3 u1Omux_Source:4
+[NPTV]vDrvDolbySetSource 780,dv ip core is not be used now, no need to do disconnect!!
+[DVI][355.628917]Type 0 Current dolby hdr type is 0
+[DVI][355.628929]Type 0 mc2: DVI Change from 3 to 5!
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[1;35;40m [2K20_PQ_DBG] _vDrvWrapperPQSetPQGammaCurveIndex u32GammaCurveIndex = 1 [0m 
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[vDrvWrapperPQSetArg][1831][0]
+[TECHNI] Set TechniColorHDR On = 0 
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[DI] After adjust DI frc line value:271
+[HDMI][355.632530]P[4]12829 hdcp errors captured, increase err count.
+[HDMI][355.644954]hdmi module mute: 0->1.
+[HDMI][355.644984]audio module mute: 0->1.
+[NPTV][Performance]***** MAIN Change to VDO_STATE_WAIT_MODE_DET 
+[NPTV]*******========source detect initial
+[PDWNC] set vga pdwnc module
+[DVI][355.645753]Type 0 mc: Mode Detect Done
+[DVI][355.645767]Type 0 md: DVI_MODE_DONE
+[DVI][355.645781][1;32mType 0 Main Mode Done[m
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]HDR10PlusModeChange:0
+[NPTV]vDrvIsHDR10Plus:0
+[NPTV]input gamma type is undefined...
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[DVI][355.646002]Type 0 activeport 4 IsDvi 1 eHDMICurrSwitch 4
+[DVI][355.646016]2D signal
+[DVI][355.646027]TDTV Input Mode: 0x       1
+[DVI][355.646039][E_TDTV_DECODER_INPUT_2D_P]
+[DVI][355.646051]sw: DVI Htotal: 3400
+[DVI][355.646063]sw: DVI Vtotal: 1481
+[DVI][355.646074]sw: DVI width: 3200
+[DVI][355.646085]sw: DVI height: 1440
+[DVI][355.646096]sw: DVI refresh rate: 60
+[DVI][355.646107]sw: DVI interlace/progressive: 0
+[DVI][355.646118]sw: DVI signal status: 3
+[DVI][355.646129]sw: _bDviTiming: 252
+[DVI][355.646140]sw: pixel clock: 302163000
+[DVI][355.646151]sw: _bDviVclk: 60
+[DVI][355.646167]sw: _wDviHclk: 888
+[DVI][355.646182]sw: vsync frequency: 60
+[DVI][355.646193]sw: hsync frequency: 888
+[DVI][355.646203]_bHDMIColorSpace (1=RGB , 0 =YCBCR) : 1
+[DVI][355.646215]sw: HDE Start: 141
+[DVI][355.646227]sw: VDE Start: 39
+[DVI][355.646237]_bDviChkState: 5
+[DVI][355.646251]sw: 2PLRMode: 0
+[DVI][355.646261]sw: DviByp Main 1 Sub 0
+[DVI][355.646273]Dolby vision status:0
+[DVI][355.646283]HDR10Plus status: 0
+m DVI
+m Signal Status = Stable
+m HTotal = 3400
+m source width = 3200
+m VTotal = 1481
+m source height = 1440
+m refresh-rate = 60
+m Timing = Not Support OR No Signal
+IsVga 1
+[NPTV]=========================
+[NPTV]Main HW status:
+[NPTV]omux Htotal/hde 3399 3200
+[NPTV]omux vtotal/vde 1480 1439
+[NPTV]Sub HW status:
+[NPTV]omux Htotal/hde 3399 3200
+[NPTV]omux vtotal/vde 1480 1439
+[HDMI][355.882535]P[4]12340 hdcp errors captured, increase err count.
+[HDMI][355.882555]P[4]hdcp error detected and trigger no signal state!
+[NPTV]3rd HW status:
+[NPTV]omux Htotal/hde 3399 3200
+[NPTV]omux vtotal/vde 1480 1439
+[DVI][355.957603]Type 0 mc2: DVI Change from 5 to 1!
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[1;35;40m [2K20_PQ_DBG] _vDrvWrapperPQSetPQGammaCurveIndex u32GammaCurveIndex = 1 [0m 
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[vDrvWrapperPQSetArg][1831][0]
+[TECHNI] Set TechniColorHDR On = 0 
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[DI] After adjust DI frc line value:361
+[NPTV][vDrvLCESWinit] SW init successful u1LCEconstVarinit=1,u1LCESWInitialized=1
+[NPTV][vDrvLCEProc] local contrast bIsLCESRAMInit
+[NPTV][vDrvLCEInit] LCE init successful u2Width=3840,u2Height=2160
+[MJC]update main window 0,0,3840,2160
+[MJC]update MJC to 4 mode, in w/h(3840,2160)
+[MJC]update w/h(3840,2160)
+[MJC]memc repeat422 mode.
+[MJC]MB_0=0x14
+[MJC]MB_1=0x1
+[MJC]MB_2=0x6
+[MJC]Mjc window update(1)
+[MJC]update in/out frame rate(60,120)
+[MJC]MB_0=0x11
+[MJC]MB_1=0x2
+[MJC]MB_2=0x3c
+[MJC]MB_3=0x78
+[MJC]MB_0=0x12
+[MJC]MB_1=0x1
+[MJC]MB_2=0x2
+[AUD]dec id = 0, handle = -140926592, ffffffc0f635bd14
+[AUD]dec id = 1, handle = -141475712, ffffffc0f635bd14
+[HDMI][355.969198][1;36mP[4] state from 3 change to 0[0m
+[NPTV][Performance]Stable, Change to VDO_STATE_IDLE #2 bSigMode = 3
+[NPTV]u1Dvi2GetHVAlignSetting:0
+[NPTV][Performance]+vDrvApplyVideoSetting()KDrv_XC_SetSignalStatus: 12262, Singal status change: No singal -> Singal
+Unknow Input Type 
+[elvis] Hal_SC_ip_software_reset
+(TZ_smi_ctrl_larb_96bit) larb_id=19, u4TimeOut=10
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=20, u4TimeOut=2
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=21, u4TimeOut=2
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=22, u4TimeOut=10
+[smi_ctrl_larb_96bit] bEnable = 0x1
+[_MDrv_PQ_InputSoureHDMI   645] bIsHDMI = 1, bIsHDMIPC = 0
+_MDrv_PQ_InputSoureHDMI hdr=0,srct=0 
+[Load PQ] Panel index=2, Source index=0
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+unknown IOCTL 10
+[_MDrv_HSYBin_Writereg][3867]
+[Load PQ: TMO] Panel index=2, Source index=1
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+vDrvWrapperXCSetGameMode:2048 bEnable:1 
+[elvis] Hal_SC_ip_software_reset
+(TZ_smi_ctrl_larb_96bit) larb_id=19, u4TimeOut=10
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=20, u4TimeOut=2
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=21, u4TimeOut=2
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=22, u4TimeOut=10
+[smi_ctrl_larb_96bit] bEnable = 0x1
+[NPTV]u4TargetLine = 4442
+[NPTV][Performance]-vDrvApplyVideoSetting()[NPTV][4KBE] Skip switch panel mode(14).
+[NPTV]vDrvCalPanelFrameRate u2VdoVTotal=1481 u4VdoFrameRate=60 u4PanelRatio=1
+[NPTV]vDrvCalPanelTiming: (DCLKType, FrameRate) = (2, 120) -> (2, 120)
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]HDR10PlusModeChange:0
+[NPTV]vDrvIsHDR10Plus:0
+[NPTV]DRVCUST_SetBT2020Sta u1BT2020Sta=0
+[NPTV]input gamma type is undefined...
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[DVI][355.974479]Type 0 VSVDB found, ieee tag is 0xc45dd8!
+[DVI][355.974494]Type 0 VRR VSVDB 0xC45DD8 found and enable!
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]Not HDR10 Plus
+[NPTV]XCCurHdrType:0
+[NPTV]u1hdrtype:0
+[VDP]------- in VDP_DrvHDRChgedNotify--------
+[NPTV]HDMI vDrvHDREOTFChangeNotify-->u2EotfValue:255 
+[DVI][355.974814]Type 0 mc: h/v total unstable 2 
+[DVI][355.974828]Type 0 mc: h/v active unstable 2 
+[DVI][355.974843]Type 0 dvi2_mc:res change
+[DVI][355.974857]Type 0 mc:sync lost___
+[DVI][355.974869]Type 0 dvi2_mc:hdmimode change from 1 to 0
+[DVI][355.974883]Type 0 dvi2_mc:hdmi range change from 2 to 0
+[DVI][355.974896]Type 0 dvi2_mc:color metry change from 19 to 0
+[DVI][355.974913]Type 0 mc2: DVI Change from 1 to 2!
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[1;35;40m [2K20_PQ_DBG] _vDrvWrapperPQSetPQGammaCurveIndex u32GammaCurveIndex = 1 [0m 
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[vDrvWrapperPQSetArg][1831][0]
+[TECHNI] Set TechniColorHDR On = 0 
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[DI] After adjust DI frc line value:181
+[NPTV]extern frame delay = 0
+[NPTV]bDrvVideoGetFrameDelay x10 frame (PScan 1, Scaler 0, MJC 5), (i2FrameDelayTime 10)
+[NPTV]Total frame delay u2TotalDelayCnt :1 u1InFrmRate:60 u1OutFrmRate:120
+[DI]u1Framedly:1,i1Delay:1
+[AUD]dec id = 0, handle = -140926592, ffffffc0f635bd14
+[AUD]L:223 _AudSrmStableCb() is called. u2VdpDelay:10
+[AUD]dec id = 1, handle = -141475712, ffffffc0f635bd14
+[AUD][_CalculateOutputDeviceDelay]adjust delay=-1881 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-1881 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-576 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-576 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-576 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-576 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-576 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-576 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-576 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-576 need >= 0![AUD][_SetOutputDeviceDelay]: dev7 Aproc set delay banks:142
+MTVDEC_GetInfo() fail, ret=-2
+MTVDEC_GetInfo() fail, ret=-2
+[AVC] Notify HDMI2 has NO Audio
+MTVDEC_GetInfo() fail, ret=-2
+[MWIF2-VDP]------- _VdpHDRTYPEChangedNotify--------
+[dragon]:_acfg_scc_vid_hdr_vdp_nfy:hdr=0
+{SM-CM} [SM] VS: _sm_video_hdlr_get(SM_VSH_GET_TYPE_VIDEO_SRC_RESOLUTION), rm_get(TV_DEC_GET_TYPE_COLOR_SYS) fail, i4_ret = -16
+acfg.c:_acfg_app_process_msg_fct:3482 ACFG_MSG_SCC_VID_HDR_EVNT e_nfy_cond=0,pt_msg_hdr_evnt->e_vid_hdr_type=0,b_HDR_to_SDR=0
+<MTKTVAPI><a_mtktvapi_config_update_nfy,11039> notifyId=7 
+<MTKTVAPI><a_mtktvapi_config_update_nfy,11039> notifyId=1 
+{SB_CE} {_svctx_listener_nfy_fct 1745} send SB_DVBC_MSG_SVC_SELECTED_NFY(12): e_svctx_cond 3 
+{SB_CE} 		[1748] msg is sent from svctx. the listener of scan eng works.
+{SB_CE} [6843] SB_DVBC_MSG_SVC_SELECTED_NFY 
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD][_AUD_RiscIecBufInit:1480]IEC Buffer Init u4Str(0x9144eab0), u4End(0xa), u4Size(0x10), u4SiBase(0x9144eee0)
+******Amplifier_TI5805_SWMute(0)
+[HDMI][356.000203][1;36mP[4] state from 0 change to 1[0m
+[DVI][356.000410]Type 0 VSVDB found, ieee tag is 0xd04601!
+[DVI][356.000427]Type 0 Dolby VSVDB 0x9c6d5e84520b44 found!
+[NPTV]vDrvDolbySetSource 775 u1VdpId:0 u1Dolby_Mode:3 u1Omux_Source:4
+[NPTV]vDrvDolbySetSource 780,dv ip core is not be used now, no need to do disconnect!!
+[DVI][356.000511]Type 0 ____main mode change_____
+[DVI][356.000527]Type 0 mc2: DVI Change from 2 to 3!
+[DI] After adjust DI frc line value:719
+[NPTV]extern frame delay = 0
+[NPTV]bDrvVideoGetFrameDelay x10 frame (PScan 1, Scaler 0, MJC 5), (i2FrameDelayTime 10)
+[NPTV]Total frame delay u2TotalDelayCnt :1 u1InFrmRate:60 u1OutFrmRate:120
+[DI]u1Framedly:1,i1Delay:1
+KDrv_XC_SetSignalStatus: 12262, Singal status change: Singal -> No singal
+[NPTV][Performance]***** MAIN Change to VDO_STATE_WAIT_MODE_DET 
+[NPTV]*******========source detect initial
+[PDWNC] set vga pdwnc module
+[DI] After adjust DI frc line value:181
+[AUD]dec id = 0, handle = -140926592, ffffffc0f635bd14
+[AUD]dec id = 1, handle = -141475712, ffffffc0f635bd14
+[DI] After adjust DI frc line value:181
+******Amplifier_TI5805_SWMute(0)
+[DI] After adjust DI frc line value:181
+******Amplifier_TI5805_SWMute(0)
+******Amplifier_TI5805_SWMute(0)
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD][_AUD_RiscIecBufInit:1480]IEC Buffer Init u4Str(0x9144eab0), u4End(0xa), u4Size(0x10), u4SiBase(0x9144eee0)
+******Amplifier_TI5805_SWMute(0)
+******Amplifier_TI5805_SWMute(0)
+******Amplifier_TI5805_SWMute(0)
+******Amplifier_TI5805_SWMute(0)
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+acfg.c:_acfg_app_process_msg_fct: pre picture mode i2_val =10,i2_switch=0,t_hdmi_infoframe:b_valid=0,aui1_info_frame_data[2]=0,aui1_info_frame_data[4]=0,ui1_allm_config=0,
+<MTKTVAPI><a_mtktvapi_config_update_nfy,11039> notifyId=3 
+{SB_CE} [6866] SET Internal ret changing [AUD]CMD: set DecType: Dsp(0) Dec(0) StreamFrom(LINE_IN) Fmt(AUD_DEC_FMT_PCM)
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]Not HDR10 Plus
+[NPTV]XCCurHdrType:0
+[NPTV]u1hdrtype:0
+[VDP]------- in VDP_DrvHDRChgedNotify--------
+
+{SB_CE} [6908] crnt_svl_id = 0, crnt_svl_rec_id = 0
+[MWIF2-VDP][NPTV]HDMI vDrvHDREOTFChangeNotify-->u2EotfValue:255 
+------- _VdpHDRTYPEChangedNotify--------
+[dragon]:_acfg_scc_vid_hdr_vdp_nfy:hdr=0
+
+[ACFG_TEST] chg_timing c_scc_vid_set_hdr_eotf i4_ret[0]
+[NPTV]_PE_SetVdoPictureMode 10
+[NPTV]SmartPic Index Error!
+MTVDO_SetPQ() fail, ret=-1
+[AUD]_GetMasterDevices start
+[AUD]_AUD_SetInputSourceGain Src(4),Dec0 to 0x8f9e3f
+<ACFG>acfg_video_update:7721,update APP_CFG_RECID_CLR_TEMP i2_app_val=1 SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 1 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[AUD]Aud dsp(0) dec(0) AUD_Command <AUD_CMD_LOADCODE> done
+[AUD]Audio ADC Mux Select as 0 
+[AUD]Audio ADC input mux select as 0 
+ [AUD]AvInputMux = 14
+
+MTDRVCUST_OptQuery() fail, ret=-1[AUD]CMD: set DecType: Dsp(0) Dec(0) StreamFrom(LINE_IN) Fmt(AUD_DEC_FMT_PCM)
+[AUD]_GetMasterDevices start
+[AUD]_AUD_SetInputSourceGain Src(4),Dec0 to 0x8f9e3f
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+
+[TECHNI] Set TechniColorHDR On = 0 
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[AUD]Aud dsp(0) dec(0) AUD_Command <AUD_CMD_LOADCODE> done
+<ACFG>acfg_video_get_color_index:2901,ui1_pic_mode=10,color index=5
+<ACFG>APP_CFG_RECID_VID_COLOR_INDEX (i2_app_val = 5 s_disp_name:snk_MainDisp)
+<ACFG><acfg_video_update,7681> update picture mode done .. 
+{LIANG} acfg_video.c:acfg_video_update:8044 acfg_get_svctx(s_disp_name=snk_MainDisp)[AUD]CMD: set AVSyncMode: Dsp(0) Dec(0) Mode(AV_SYNC_FREE_RUN)
+[AUD]CMD: set Play Asyn: Dsp(0) Dec(0)
+[AUD]====> vAprocDecc_Open 0
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(0)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(1)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(2)
+[AUD_MS12_PCMR_DISCARD_DRC][4243] xiaomi, bEnable(1)
+[AUD][_AUD_MS12_PCMR_DISCARD_DRC:7850]u4Base(0xffffff800d041000),u4Offset(0x886b40),pi4Addr(0xffffff800d8c7b40),bEnable(1)
+[AUD_MS12_PCMR_COMPRESSOR_PROFILE][4339] xiaomi, u4Cprof(0)
+[AUD][_AUD_DolbyMS12_Loudness:2134]u1DecId(0)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(0)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(1)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(2)
+[AUD]dec id = 0, handle = -140926592, ffffffc0f7467c94
+[AUD]Aud dsp(0) dec(0) AUD_Command <AUD_CMD_PLAY> done
+[AUD][SC]AQ_init Line in SILENCECTRL_SP_GAIN_MODE=512
+[AUD][SC]SILENCECTRL_FIX_THRESHOLD=1048576
+[AUD][SC]SILENCECTRL_WAIT_NUM=375
+[AUD][SC]SILENCECTRL_RELEASE_STEP=129055
+[AUD][AUD]dec id = 0, handle = -140926592, ffffffc0f7467cd4
+[SC]SILENCECTRL_ATTACK_STEP=64035
+[AUD][SC]SILENCECTRL_ATTACK_GAIN=0
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(0)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(1)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(2)
+[AUD_MS12_PCMR_DISCARD_DRC][4243] xiaomi, bEnable(1)
+[AUD][_AUD_MS12_PCMR_DISCARD_DRC:7850]u4Base(0xffffff800d041000),u4Offset(0x886b40),pi4Addr(0xffffff800d8c7b40),bEnable(1)
+[AUD_MS12_PCMR_COMPRESSOR_PROFILE][4339] xiaomi, u4Cprof(0)
+[TECHNI] Set TechniColorHDR On = 0 
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+
+MTVDEC_GetInfo() fail, ret=-2
+acfg.c:_acfg_app_process_msg_fct:3482 ACFG_MSG_SCC_VID_HDR_EVNT e_nfy_cond=0,pt_msg_hdr_evnt->e_vid_hdr_type=0,b_HDR_to_SDR=0
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD]_AudAutoModeConvertIecCfg:IecCfg:1
+[AUD][_AUD_RiscIecBufInit:1480]IEC Buffer Init u4Str(0x9144eab0), u4End(0xa), u4Size(0x10), u4SiBase(0x9144eee0)
+[AUD][_CalculateOutputDeviceDelay]adjust delay=-382 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-382 need >= 0![AUD][_SetOutputDeviceDelay]: dev2 Aproc set delay banks:14
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:2
+[AUD][_SetOutputDeviceDelay]: dev3 Aproc set delay banks:14
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:3
+[AUD][_SetOutputDeviceDelay]: dev4 Aproc set delay banks:14
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:4
+[AUD][_SetOutputDeviceDelay]: dev5 Aproc set delay banks:14
+[AUD][_SetOutputDeviceDelay]: dev6 Aproc set delay banks:14
+[AUD][_SetOutputDeviceDelay]: dev7 Aproc set delay banks:165
+[AUD][_SetOutputDeviceDelay]: dev9 Aproc set delay banks:14
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:9
+[AUD][_SetOutputDeviceDelay]: dev10 Aproc set delay banks:14
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:10
+[AUD][_SetOutputDeviceDelay]: dev11 Aproc set delay banks:14
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:11
+[AUD]dec id = 0, handle = -140926592, ffffffc0f7533d14
+[AUD]AUD_DrvMMAoutEnableNotify: u1DecId(0), fgResume(0)
+{AUDIO_INFO} {AUDIO_INFO} audio_info.c:_audio_info_update_analog_audio_info:2458 FALSE == b_is_ready
+[HDMI][356.800651][V20] P[4] TMDS clk change from 0 to 302163
+[HDMI][356.800672]TMDS clock change detected!
+[HDMI][356.800928]_bHDMI2PhySetingHandle guard it....
+[HDMI][356.800943][1;36mP[4] state from 1 change to 2[0m
+{ACFG} mtktvapi_config.c:a_mtktvapi_config_get_value:6727 dolby_vision and CFG_GRP_DOVI_INFO get *pi4_value =0 [NPTV]##u4IsDoviHDR=0 ###
+
+[HDMI][356.834204]_bHDMI2PhySetingHandle guard it....
+[HDMI][356.867567]eBand=13,b40xMode=0
+[HDMI][356.867589][Port4]vHDMI21PhyAnaSetting
+[HDMI][356.897944][PHY]Set analog use time 0.030304 s!>>>>>>>>>>
+[HDMI][356.900838]_bHDMI2PhySetingHandle guard it....
+[HDMI][356.922560]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][356.934176]_bHDMI2PhySetingHandle guard it....
+[HDMI][356.967541]_bHDMI2PhySetingHandle guard it....
+[HDMI][357.000862]_bHDMI2PhySetingHandle guard it....
+[HDMI][358.400307]unstable count over range, reset all phy setting...
+[HDMI][358.400576][Port4]vHDMI21PhyAnaSetting
+[HDMI][358.431466][PHY]Set analog use time 0.030856 s!>>>>>>>>>>
+[HDMI][358.432793]_bHDMI2PhySetingHandle guard it....
+[HDMI][358.434107]_bHDMI2PhySetingHandle guard it....
+[HDMI][358.452572]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][358.467585]_bHDMI2PhySetingHandle guard it....
+[HDMI][358.500790]_bHDMI2PhySetingHandle guard it....
+[HDMI][358.534116]_bHDMI2PhySetingHandle guard it....
+[HDMI][358.567454]clock change interrupt detected, reset HDMI all!
+[HDMI][358.567729][Port4]vHDMI21PhyAnaSetting
+[HDMI][358.598061][PHY]Set analog use time 0.030297 s!>>>>>>>>>>
+[HDMI][358.600775]_bHDMI2PhySetingHandle guard it....
+[HDMI][358.622553]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][358.634102]_bHDMI2PhySetingHandle guard it....
+[HDMI][358.667430]_bHDMI2PhySetingHandle guard it....
+[HDMI][358.700751]_bHDMI2PhySetingHandle guard it....
+[HDMI][358.734100]clock change interrupt detected, reset HDMI all!
+[HDMI][358.734368][Port4]vHDMI21PhyAnaSetting
+[HDMI][358.764702][PHY]Set analog use time 0.030297 s!>>>>>>>>>>
+[HDMI][358.767565]_bHDMI2PhySetingHandle guard it....
+[HDMI][358.792537]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][358.800998]_bHDMI2PhySetingHandle guard it....
+[HDMI][358.834122]_bHDMI2PhySetingHandle guard it....
+[HDMI][358.867466]_bHDMI2PhySetingHandle guard it....
+[HDMI][358.900814]clock change interrupt detected, reset HDMI all!
+[HDMI][358.901083][Port4]vHDMI21PhyAnaSetting
+[HDMI][358.931879][PHY]Set analog use time 0.030759 s!>>>>>>>>>>
+[HDMI][358.934107]_bHDMI2PhySetingHandle guard it....
+[HDMI][358.952568]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][358.967467]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.000787]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.034115]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.067443]clock change interrupt detected, reset HDMI all!
+[HDMI][359.067740][Port4]vHDMI21PhyAnaSetting
+[HDMI][359.098079][PHY]Set analog use time 0.030301 s!>>>>>>>>>>
+[HDMI][359.100785]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.127577]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][359.134149]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.167430]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.200813]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.234117]clock change interrupt detected, reset HDMI all!
+[HDMI][359.234388][Port4]vHDMI21PhyAnaSetting
+[HDMI][359.264750][PHY]Set analog use time 0.030323 s!>>>>>>>>>>
+[HDMI][359.267433]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.287569]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][359.300760]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.334078]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.367402]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.400734]clock change interrupt detected, reset HDMI all!
+[HDMI][359.401003][Port4]vHDMI21PhyAnaSetting
+[HDMI][359.431394][PHY]Set analog use time 0.030356 s!>>>>>>>>>>
+[HDMI][359.434056]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.452589]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][359.467408]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.500780]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.534167]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.567431]clock change interrupt detected, reset HDMI all!
+[HDMI][359.567758][Port4]vHDMI21PhyAnaSetting
+[HDMI][359.598096][PHY]Set analog use time 0.030301 s!>>>>>>>>>>
+[HDMI][359.600856]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.622548]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][359.634222]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.667405]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.700761]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.734085]clock change interrupt detected, reset HDMI all!
+[HDMI][359.734356][Port4]vHDMI21PhyAnaSetting
+[HDMI][359.764696][PHY]Set analog use time 0.030305 s!>>>>>>>>>>
+[HDMI][359.767392]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.792540]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][359.800780]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.834042]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.867391]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.900730]clock change interrupt detected, reset HDMI all!
+[HDMI][359.900999][Port4]vHDMI21PhyAnaSetting
+[HDMI][359.931328][PHY]Set analog use time 0.030294 s!>>>>>>>>>>
+[HDMI][359.934028]_bHDMI2PhySetingHandle guard it....
+[HDMI][359.952567]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][359.967364]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.000694]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.034027]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.067371]clock change interrupt detected, reset HDMI all!
+[HDMI][360.067650][Port4]vHDMI21PhyAnaSetting
+[HDMI][360.098008][PHY]Set analog use time 0.030324 s!>>>>>>>>>>
+[HDMI][360.100757]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.122544]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][360.134053]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.167384]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.200686]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.234027]clock change interrupt detected, reset HDMI all!
+[HDMI][360.234296][Port4]vHDMI21PhyAnaSetting
+[HDMI][360.264628][PHY]Set analog use time 0.030294 s!>>>>>>>>>>
+[HDMI][360.267378]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.287542]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][360.300672]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.334012]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.367366]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.400705]clock change interrupt detected, reset HDMI all!
+[HDMI][360.400975][Port4]vHDMI21PhyAnaSetting
+[HDMI][360.431314][PHY]Set analog use time 0.030306 s!>>>>>>>>>>
+[DI] After adjust DI frc line value:361
+[HDMI][360.434063]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][360.452557]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][360.467397]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:181
+[HDMI][360.500735]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.534039]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][360.567432]clock change interrupt detected, reset HDMI all!
+[HDMI][360.567733][Port4]vHDMI21PhyAnaSetting
+[HDMI][360.598078][PHY]Set analog use time 0.030307 s!>>>>>>>>>>
+[DI] After adjust DI frc line value:181
+[HDMI][360.600691]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.622538]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][360.634074]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.667343]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.700675]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.734006]clock change interrupt detected, reset HDMI all!
+[HDMI][360.734280][Port4]vHDMI21PhyAnaSetting
+[HDMI][360.764606][PHY]Set analog use time 0.030292 s!>>>>>>>>>>
+[HDMI][360.767293]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.792558]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][360.800690]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.834013]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.867328]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.900660]clock change interrupt detected, reset HDMI all!
+[HDMI][360.900929][Port4]vHDMI21PhyAnaSetting
+[HDMI][360.931255][PHY]Set analog use time 0.030291 s!>>>>>>>>>>
+[HDMI][360.934010]_bHDMI2PhySetingHandle guard it....
+[HDMI][360.952547]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][360.967327]_bHDMI2PhySetingHandle guard it....
+[HDMI][361.000666]_bHDMI2PhySetingHandle guard it....
+[HDMI][361.033987]_bHDMI2PhySetingHandle guard it....
+[HDMI][361.067322]clock change interrupt detected, reset HDMI all!
+[HDMI][361.067618][Port4]vHDMI21PhyAnaSetting
+[HDMI][361.097946][PHY]Set analog use time 0.030297 s!>>>>>>>>>>
+[HDMI][361.100664]_bHDMI2PhySetingHandle guard it....
+[HDMI][361.117560]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][361.134043]_bHDMI2PhySetingHandle guard it....
+[HDMI][361.167301]_bHDMI2PhySetingHandle guard it....
+[HDMI][361.200671]_bHDMI2PhySetingHandle guard it....
+[HDMI][361.234016]clock change interrupt detected, reset HDMI all!
+[HDMI][361.234285][Port4]vHDMI21PhyAnaSetting
+[HDMI][361.264607][PHY]Set analog use time 0.030286 s!>>>>>>>>>>
+[HDMI][361.267340]_bHDMI2PhySetingHandle guard it....
+[HDMI][361.292535]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][361.300700]_bHDMI2PhySetingHandle guard it....
+[HDMI][361.333975]_bHDMI2PhySetingHandle guard it....
+[HDMI][361.367300]_bHDMI2PhySetingHandle guard it....
+[HDMI][361.400696]clock change interrupt detected, reset HDMI all!
+[HDMI][361.400965][Port4]vHDMI21PhyAnaSetting
+[HDMI][361.431291][PHY]Set analog use time 0.030291 s!>>>>>>>>>>
+[DI] After adjust DI frc line value:361
+[HDMI][361.433975]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][361.452520]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][361.467361]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:181
+[HDMI][361.500673]_bHDMI2PhySetingHandle guard it....
+[HDMI][361.533962]_bHDMI2PhySetingHandle guard it....
+[HDMI][361.567301]clock change interrupt detected, reset HDMI all!
+[HDMI][361.567606][Port4]vHDMI21PhyAnaSetting
+[HDMI][361.597942][PHY]Set analog use time 0.030301 s!>>>>>>>>>>
+[HDMI][361.600670]_bHDMI2PhySetingHandle guard it....
+[HDMI][361.622561]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][361.633979]_bHDMI2PhySetingHandle guard it....
+[HDMI][361.667289]_bHDMI2PhySetingHandle guard it....
+[HDMI][361.700623]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][361.733982]clock change interrupt detected, reset HDMI all!
+[HDMI][361.734250][Port4]vHDMI21PhyAnaSetting
+[HDMI][361.764583][PHY]Set analog use time 0.030300 s!>>>>>>>>>>
+[DI] After adjust DI frc line value:181
+[HDMI][361.767245]_bHDMI2PhySetingHandle guard it....
+[HDMI][361.787574]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][361.800649]_bHDMI2PhySetingHandle guard it....
+[HDMI][361.833949]_bHDMI2PhySetingHandle guard it....
+[HDMI][361.867284]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[AUD][PLAY_MUTE](0)!!gogogo Audio UnMute!! i2UnMuteCount = 0 u4VdoMuteFlag = 1[DI] After adjust DI frc line value:361
+[HDMI][362.233459]HDMI port 4 enter stable, current is HDMI Mode, resolution is 3200 x 1440.
+[HDMI][362.233989][1;36mP[4] state from 2 change to 3[0m
+[HDMI][362.234007]P[4]HDMI_HDCP22:HDCP auth done!
+[HDMI][362.234021]P[4]HDMI_HDCP22:HDCP ake sent received!
+========P[4] Video Status========
+[V20]CKDT detected
+[V20]SCDT detected
+[V20]width: 3200
+[V20]height: 1440
+[V20]htotal: 3400
+[V20]base/real vtotal: 1481 / 1481
+[V20]base/real refresh rate: 60 / 60
+[V20]pixel freq: 302163000HZ
+[V20]progressive signal|HDMI mode|8 bit|RGB
+[V20]HDMI2.0 and Tx scrambling en
+[V20]TMDS clock ratio-1:10
+[V20]Av Mute:false
+========P[4] Audio Status========
+[V20]HDMI audio fifo underun
+[V20]Audio N=6144, CTS=301875, Fs=44.1K 
+!!!WARNING:The FS in audio channel status 0 != calculated sample rate 2
+[V20]Audio is PCM, 2 channel
+[V20]Audio status:mute
+========P[4] HDCP Status=========
+[HDMI][362.238737]hdcp1.4 crc check success
+[HDMI][362.239765]Check secure hdcp2.2 key valid
+[V20]HDCP key status: v1.4/v2.2 => valid/valid
+[V20] HDCP1.4 auth fail | No Hdcp2.2
+=======P[4] General Status=======
+[V20]5v:1, Hpd:1, TMDSClk:302163
+[V20]Range:0, Scan:2, AspactRatio:0, AFD:8
+[V20]ITC:1, ITCcontent:0, ALLM:0
+[V20]VIC:0, VRR index:255, NCCIRMode:1, VPOut:0
+[V20]__bHDMIState :3, HDMI DV state: 0
+[V20]VRR Info:FVA 0 M_CONST 0 VRR_EN 0 Base_vf 0
+[V20]VRR Info: RB 0 Base_Refresh_Rate 0 VrrMDx Vaule 0x00000000
+==============================
+[HDMI][362.242572]P[4]30992 hdcp errors captured, increase err count.
+[HDMI][362.502534]P[4]12829 hdcp errors captured, increase err count.
+[HDMI][362.752577]P[4]12341 hdcp errors captured, increase err count.
+[HDMI][363.007536]P[4]12590 hdcp errors captured, increase err count.
+[HDMI][363.262562]P[4]12586 hdcp errors captured, increase err count.
+[HDMI][363.262603]P[4]hdcp error detected and trigger no signal state!
+[HDMI][363.267219][1;36mP[4] state from 3 change to 0[0m
+[DI] After adjust DI frc line value:181
+[HDMI][363.300050][1;36mP[4] state from 0 change to 1[0m
+[DI] After adjust DI frc line value:181
+do 10 r 0x12026880 4
+Loop 0
+
+0x12026880 | 00000700
+Loop 1
+
+0x12026880 | 00000700
+Loop 2
+
+0x12026880 | 00000700
+Loop 3
+
+0x12026880 | 00000700
+Loop 4
+
+0x12026880 | 00000700
+Loop 5
+
+0x12026880 | 00000700
+Loop 6
+
+0x12026880 | 00000700
+Loop 7
+
+0x12026880 | 00000700
+Loop 8
+
+0x12026880 | 00000700
+Loop 9
+
+0x12026880 | 00000700
+DTV>[HDMI][364.066925][V20] P[4] TMDS clk change from 0 to 302163
+[HDMI][364.066951]TMDS clock change detected!
+[HDMI][364.067207]_bHDMI2PhySetingHandle guard it....
+[HDMI][364.067223][1;36mP[4] state from 1 change to 2[0m
+[HDMI][364.100491]_bHDMI2PhySetingHandle guard it....
+[HDMI][364.133835]eBand=13,b40xMode=0
+[HDMI][364.133863][Port4]vHDMI21PhyAnaSetting
+[HDMI][364.164206][PHY]Set analog use time 0.030304 s!>>>>>>>>>>
+[HDMI][364.167122]_bHDMI2PhySetingHandle guard it....
+[HDMI][364.187583]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][364.200491]_bHDMI2PhySetingHandle guard it....
+[HDMI][364.233843]_bHDMI2PhySetingHandle guard it....
+[HDMI][364.267151]_bHDMI2PhySetingHandle guard it....
+[NPTV]##u4IsDoviHDR=0 ###
+{ACFG} mtktvapi_config.c:a_mtktvapi_config_get_value:6727 dolby_vision and CFG_GRP_DOVI_INFO get *pi4_value =0 
+[HDMI][365.699933]unstable count over range, reset all phy setting...
+[HDMI][365.700201][Port4]vHDMI21PhyAnaSetting
+[HDMI][365.730786][PHY]Set analog use time 0.030548 s!>>>>>>>>>>
+[HDMI][365.732101]_bHDMI2PhySetingHandle guard it....
+[HDMI][365.733837]_bHDMI2PhySetingHandle guard it....
+[HDMI][365.752562]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][365.767074]_bHDMI2PhySetingHandle guard it....
+[HDMI][365.800676]_bHDMI2PhySetingHandle guard it....
+[HDMI][365.833793]_bHDMI2PhySetingHandle guard it....
+[HDMI][365.867079]clock change interrupt detected, reset HDMI all!
+[HDMI][365.867353][Port4]vHDMI21PhyAnaSetting
+[HDMI][365.897679][PHY]Set analog use time 0.030294 s!>>>>>>>>>>
+[HDMI][365.900423]_bHDMI2PhySetingHandle guard it....
+[HDMI][365.917566]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][365.934368]_bHDMI2PhySetingHandle guard it....
+[HDMI][365.967140]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.000509]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.033794]clock change interrupt detected, reset HDMI all!
+[HDMI][366.034065][Port4]vHDMI21PhyAnaSetting
+[HDMI][366.064786][PHY]Set analog use time 0.030672 s!>>>>>>>>>>
+[HDMI][366.067080]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.087562]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][366.100452]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.133744]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.167060]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.200402]clock change interrupt detected, reset HDMI all!
+[HDMI][366.200673][Port4]vHDMI21PhyAnaSetting
+[HDMI][366.231003][PHY]Set analog use time 0.030297 s!>>>>>>>>>>
+[HDMI][366.233743]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.252544]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][366.267113]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[HDMI][366.300491]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:181
+[HDMI][366.333779]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.367229]clock change interrupt detected, reset HDMI all!
+[HDMI][366.367532][Port4]vHDMI21PhyAnaSetting
+[HDMI][366.397893][PHY]Set analog use time 0.030320 s!>>>>>>>>>>
+[HDMI][366.400381]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.422561]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][366.433735]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.467039]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.500450]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.533715]clock change interrupt detected, reset HDMI all!
+[HDMI][366.533990][Port4]vHDMI21PhyAnaSetting
+[HDMI][366.564345][PHY]Set analog use time 0.030316 s!>>>>>>>>>>
+[HDMI][366.567078]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.587579]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][366.600401]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.633695]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.667038]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.700367]clock change interrupt detected, reset HDMI all!
+[HDMI][366.700634][Port4]vHDMI21PhyAnaSetting
+[HDMI][366.730965][PHY]Set analog use time 0.030297 s!>>>>>>>>>>
+[HDMI][366.733711]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.752570]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][366.767091]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.800377]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.833483][V20] P[4] TMDS clk change from 302163 to 124470
+[HDMI][366.833510]TMDS clock change detected!
+[HDMI][366.833769]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.866934]40xMode change detected!
+[HDMI][366.867204]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.900474]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.933692]eBand=16,b40xMode=1
+[HDMI][366.933730][Port4]vHDMI21PhyAnaSetting
+[HDMI][366.955879][PHY]Set analog use time 0.022111 s!>>>>>>>>>>
+[HDMI][366.967043]_bHDMI2PhySetingHandle guard it....
+[HDMI][366.982560]vHDMI21PhyGPOSetALG_DONE in TMDS mode 
+[HDMI][367.000367]_bHDMI2PhySetingHandle guard it....
+[HDMI][367.033687]_bHDMI2PhySetingHandle guard it....
+[HDMI][367.067018]_bHDMI2PhySetingHandle guard it....
+[DI] After adjust DI frc line value:361
+[DI] After adjust DI frc line value:361
+[HDMI][367.433178]HDMI port 4 enter stable, current is HDMI Mode, resolution is 2560 x 1440.
+[HDMI][367.433708][1;36mP[4] state from 2 change to 3[0m
+========P[4] Video Status========
+[V20]CKDT detected
+[V20]SCDT detected
+[V20]width: 2560
+[V20]height: 1440
+[V20]htotal: 2720
+[V20]base/real vtotal: 1525 / 1525
+[V20]base/real refresh rate: 120 / 120
+[V20]pixel freq: 498723000HZ
+[V20]progressive signal|HDMI mode|8 bit|RGB
+[V20]HDMI2.0 and Tx scrambling en
+[V20]TMDS clock ratio-1:40
+[V20]Av Mute:false
+========P[4] Audio Status========
+[V20]HDMI audio fifo underun
+[V20]Audio N=6144, CTS=497750, Fs=48K   
+[V20]Audio is PCM, 2 channel
+[V20]Audio status:mute
+========P[4] HDCP Status=========
+[HDMI][367.438351]hdcp1.4 crc check success
+[HDMI][367.439414]Check secure hdcp2.2 key valid
+[V20]HDCP key status: v1.4/v2.2 => valid/valid
+[V20] HDCP1.4 auth fail | No Hdcp2.2
+=======P[4] General Status=======
+[V20]5v:1, Hpd:1, TMDSClk:124470
+[V20]Range:0, Scan:2, AspactRatio:0, AFD:8
+[V20]ITC:1, ITCcontent:0, ALLM:0
+[V20]VIC:0, VRR index:26, NCCIRMode:1, VPOut:0
+[V20]__bHDMIState :3, HDMI DV state: 0
+[V20]VRR Info:FVA 0 M_CONST 0 VRR_EN 0 Base_vf 3
+[V20]VRR Info: RB 0 Base_Refresh_Rate 119 VrrMDx Vaule 0x77000300
+==============================
+do 10 r 0x12026880 4
+Loop 0
+
+0x12026880 | 00000100
+Loop 1
+
+0x12026880 | 00000100
+Loop 2
+
+0x12026880 | 00000100
+Loop 3
+
+0x12026880 | 00000100
+Loop 4
+
+0x12026880 | 00000100
+Loop 5
+
+0x12026880 | 00000100
+Loop 6
+
+0x12026880 | 00000100
+Loop 7
+
+0x12026880 | 00000100
+Loop 8
+
+0x12026880 | 00000100
+Loop 9
+
+0x12026880 | 00000100
+DTV>[DVI][369.067203]Type 0 VSVDB found, ieee tag is 0xd04601!
+[DVI][369.067228]Type 0 Dolby VSVDB 0x9c6d5e84520b44 found!
+[NPTV]vDrvDolbySetSource 775 u1VdpId:0 u1Dolby_Mode:3 u1Omux_Source:4
+[NPTV]vDrvDolbySetSource 780,dv ip core is not be used now, no need to do disconnect!!
+[DVI][369.067323]Type 0 md: DVI_MODE_DONE_01 2PMode 0
+[HDMI][369.067336]select hdmi clock path as 0
+[DVI][369.067355]Type 0 vsync frequency: 120
+[DVI][369.067366]Type 0 hsync frequency: 1831
+[DVI][369.067378]Type 0 Htotal: 2720
+[DVI][369.067390]Type 0 Vtotal: 1525
+[DVI][369.067480]Type 0 Current hdr10Plus type is 0
+[NPTV]vDrvDolbySetSource 775 u1VdpId:0 u1Dolby_Mode:3 u1Omux_Source:4
+[NPTV]vDrvDolbySetSource 780,dv ip core is not be used now, no need to do disconnect!!
+[DVI][369.067619]Type 0 Current dolby hdr type is 0
+[DVI][369.067638]Type 0 mc2: DVI Change from 3 to 5!
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[1;35;40m [2K20_PQ_DBG] _vDrvWrapperPQSetPQGammaCurveIndex u32GammaCurveIndex = 1 [0m 
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[vDrvWrapperPQSetArg][1831][0]
+[TECHNI] Set TechniColorHDR On = 0 
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[DI] After adjust DI frc line value:361
+[DVI][369.100528]Type 0 mc: Mode Detect Done
+[DVI][369.100549]Type 0 md: DVI_MODE_DONE
+[DVI][369.100566][1;32mType 0 Main Mode Done[m
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]HDR10PlusModeChange:0
+[NPTV]vDrvIsHDR10Plus:0
+[NPTV]input gamma type is undefined...
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[DVI][369.100792]Type 0 activeport 4 IsDvi 1 eHDMICurrSwitch 4
+[DVI][369.100806]2D signal
+[DVI][369.100817]TDTV Input Mode: 0x       1
+[DVI][369.100828][E_TDTV_DECODER_INPUT_2D_P]
+[DVI][369.100842]sw: DVI Htotal: 2720
+[DVI][369.100854]sw: DVI Vtotal: 1525
+[DVI][369.100866]sw: DVI width: 2560
+[DVI][369.100878]sw: DVI height: 1440
+[DVI][369.100889]sw: DVI refresh rate: 120
+[DVI][369.100901]sw: DVI interlace/progressive: 0
+[DVI][369.100913]sw: DVI signal status: 3
+[DVI][369.100924]sw: _bDviTiming: 252
+[DVI][369.100936]sw: pixel clock: 498162000
+[DVI][369.100947]sw: _bDviVclk: 120
+[DVI][369.100958]sw: _wDviHclk: 1831
+[DVI][369.100973]sw: vsync frequency: 120
+[DVI][369.100985]sw: hsync frequency: 1833
+[DVI][369.100996]_bHDMIColorSpace (1=RGB , 0 =YCBCR) : 1
+[DVI][369.101008]sw: HDE Start: 113
+[DVI][369.101020]sw: VDE Start: 83
+[DVI][369.101030]_bDviChkState: 5
+[DVI][369.101044]sw: 2PLRMode: 0
+[DVI][369.101055]sw: DviByp Main 1 Sub 0
+[DVI][369.101067]Dolby vision status:0
+[DVI][369.101078]HDR10Plus status: 0
+m DVI
+m Signal Status = Stable
+m HTotal = 2720
+m source width = 2560
+m VTotal = 1525
+m source height = 1440
+m refresh-rate = 120
+m Timing = Not Support OR No Signal
+IsVga 1
+[NPTV]=========================
+[NPTV]Main HW status:
+[NPTV]omux Htotal/hde 2719 2560
+[NPTV]omux vtotal/vde 1524 1439
+[NPTV]Sub HW status:
+[NPTV]omux Htotal/hde 2719 2560
+[NPTV]omux vtotal/vde 1524 1439
+[NPTV]3rd HW status:
+[NPTV]omux Htotal/hde 2719 2560
+[NPTV]omux vtotal/vde 1524 1439
+[DVI][369.412610]Type 0 mc2: DVI Change from 5 to 1!
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[1;35;40m [2K20_PQ_DBG] _vDrvWrapperPQSetPQGammaCurveIndex u32GammaCurveIndex = 1 [0m 
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[vDrvWrapperPQSetArg][1831][0]
+[TECHNI] Set TechniColorHDR On = 0 
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[DI] After adjust DI frc line value:271
+[NPTV][vDrvLCESWinit] SW init successful u1LCEconstVarinit=1,u1LCESWInitialized=1
+[NPTV][vDrvLCEProc] local contrast bIsLCESRAMInit
+[NPTV][vDrvLCEInit] LCE init successful u2Width=3840,u2Height=1080
+[MJC]update main window 0,0,3840,1080
+[MJC]update MJC to 4K1K mode, in w/h(3840,1080)
+[MJC]update w/h(3840,1080)
+[MJC]MB_0=0x14
+[MJC]MB_1=0x1
+[MJC]MB_2=0x4
+[MJC]Mjc window update(1)
+[MJC]update in/out frame rate(120,120)
+[MJC]mail box busy time out<vMjcSetInoOutFrameRate>!
+[MJC]MB_0=0x12
+[MJC]MB_1=0x1
+[MJC]MB_2=0x1
+[NPTV][Performance]Stable, Change to VDO_STATE_IDLE #2 bSigMode = 3
+[NPTV]u1Dvi2GetHVAlignSetting:0
+[NPTV][Performance]+vDrvApplyVideoSetting()KDrv_XC_SetSignalStatus: 12262, Singal status change: No singal -> Singal
+Unknow Input Type 
+[elvis] Hal_SC_ip_software_reset
+(TZ_smi_ctrl_larb_96bit) larb_id=19, u4TimeOut=10
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=20, u4TimeOut=2
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=21, u4TimeOut=2
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=22, u4TimeOut=10
+[smi_ctrl_larb_96bit] bEnable = 0x1
+[_MDrv_PQ_InputSoureHDMI   645] bIsHDMI = 1, bIsHDMIPC = 0
+_MDrv_PQ_InputSoureHDMI hdr=0,srct=0 
+[Load PQ] Panel index=2, Source index=0
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+[MApi_XC_GetDSInfo, 1657]No instance existed, please get an instance by calling MApi_XC_Init() first
+unknown IOCTL 10
+[_MDrv_HSYBin_Writereg][3867]
+[Load PQ: TMO] Panel index=2, Source index=1
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+vDrvWrapperXCSetGameMode:2048 bEnable:1 
+[elvis] Hal_SC_ip_software_reset
+(TZ_smi_ctrl_larb_96bit) larb_id=19, u4TimeOut=10
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=20, u4TimeOut=2
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=21, u4TimeOut=2
+[smi_ctrl_larb_96bit] bEnable = 0x1
+(TZ_smi_ctrl_larb_96bit) larb_id=22, u4TimeOut=10
+[smi_ctrl_larb_96bit] bEnable = 0x1
+[NPTV]u4TargetLine = 2192
+[NPTV][Performance]-vDrvApplyVideoSetting()[NPTV][4KBE] Skip switch panel mode(14).
+[NPTV]vDrvCalPanelFrameRate u2VdoVTotal=1525 u4VdoFrameRate=120 u4PanelRatio=1
+[NPTV]vDrvCalPanelTiming: (DCLKType, FrameRate) = (2, 120) -> (2, 120)
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]HDR10PlusModeChange:0
+[NPTV]vDrvIsHDR10Plus:0
+[NPTV]DRVCUST_SetBT2020Sta u1BT2020Sta=0
+[NPTV]input gamma type is undefined...
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[DVI][369.432173]Type 0 VSVDB found, ieee tag is 0xc45dd8!
+[DVI][369.432186]Type 0 VRR VSVDB 0xC45DD8 found and enable!
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[1;35;40m [2K20_PQ_DBG] _vDrvWrapperPQSetPQGammaCurveIndex u32GammaCurveIndex = 1 [0m 
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[vDrvWrapperPQSetArg][1831][0]
+[TECHNI] Set TechniColorHDR On = 0 
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[BYP_ALL_DBG]KDrv_PQ_DPU_SetModSettings_TrigerALL 1 =======================
+[Load PQ: TMO] Panel index=2, Source index=1
+[DI] After adjust DI frc line value:271
+MTVDEC_GetInfo() fail, ret=-2
+[HDMI][369.436787]hdmi module mute: 1->0.
+[HDMI][369.436804]audio module mute: 1->0.
+[DI] After adjust DI frc line value:271
+[NPTV]extern frame delay = 0
+[NPTV]bDrvVideoGetFrameDelay x10 frame (PScan 0, Scaler 20, MJC 7), (i2FrameDelayTime 22)
+[NPTV]Total frame delay u2TotalDelayCnt :3 u1InFrmRate:120 u1OutFrmRate:120
+[DI]u1Framedly:3,i1Delay:3
+[AUD]dec id = 0, handle = -140926592, ffffffc0f635bd14
+[AUD]L:223 _AudSrmStableCb() is called. u2VdpDelay:22
+[AUD]dec id = 1, handle = -141475712, ffffffc0f635bd14
+[AUD][_CalculateOutputDeviceDelay]adjust delay=-1301 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-1301 need >= 0![AUD][_SetOutputDeviceDelay]: dev2 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:2
+[AUD][_SetOutputDeviceDelay]: dev3 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:3
+[AUD][_SetOutputDeviceDelay]: dev4 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:4
+[AUD][_SetOutputDeviceDelay]: dev5 Aproc set delay banks:0
+[AUD][_SetOutputDeviceDelay]: dev6 Aproc set delay banks:0
+MTVDEC_GetInfo() fail, ret=-2
+[AVC] Notify HDMI2 has Audio
+MTVDEC_GetInfo() fail, ret=-2
+{SM-CM} [SM] VS: _sm_video_hdlr_get(SM_VSH_GET_TYPE_VIDEO_SRC_RESOLUTION), rm_get(TV_DEC_GET_TYPE_COLOR_SYS) fail, i4_ret = -16
+<MTKTVAPI><a_mtktvapi_config_update_nfy,11039> notifyId=7 
+{SB_CE} {_svctx_listener_nfy_fct 1745} send SB_DVBC_MSG_SVC_SELECTED_NFY(12): e_svctx_cond 3 
+{SB_CE} 		[1748] msg is sent from svctx. the listener of scan eng works.
+{SB_CE} [6843] SB_DVBC_MSG_SVC_SELECTED_NFY 
+<MTKTVAPI><a_mtktvapi_config_update_nfy,11039> notifyId=1 
+[AUD][_SetOutputDeviceDelay]: dev7 Aproc set delay banks:151
+[AUD][_SetOutputDeviceDelay]: dev9 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:9
+[AUD][_SetOutputDeviceDelay]: dev10 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:10
+[AUD][_SetOutputDeviceDelay]: dev11 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:11
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD]_AudAutoModeConvertIecCfg:IecCfg:1
+[AUD][_AUD_RiscIecBufInit:1480]IEC Buffer Init u4Str(0x9144eab0), u4End(0xa), u4Size(0x10), u4SiBase(0x9144eee0)
+******Amplifier_TI5805_SWMute(0)
+[AUD][_CalculateOutputDeviceDelay]adjust delay=-1301 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-1301 need >= 0![DI] After adjust DI frc line value:271
+******Amplifier_TI5805_SWMute(0)
+[NPTV]Enable AdaptiveLuma
+******Amplifier_TI5805_SWMute(0)
+******Amplifier_TI5805_SWMute(0)
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD]_AudAutoModeConvertIecCfg:IecCfg:1
+[AUD][_AUD_RiscIecBufInit:1480]IEC Buffer Init u4Str(0x9144eab0), u4End(0xa), u4Size(0x10), u4SiBase(0x9144eee0)
+******Amplifier_TI5805_SWMute(0)
+[HDMI][369.822678]P[4]HDMI_HDCP22:HDCP ake sent received!
+******Amplifier_TI5805_SWMute(0)
+******Amplifier_TI5805_SWMute(0)
+[HDMI][369.938540]P[4]HDMI_HDCP22:HDCP auth done!
+[HDMI][369.947570]P[4]415 hdcp errors captured, increase err count.
+******Amplifier_TI5805_SWMute(0)
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+acfg.c:_acfg_app_process_msg_fct: pre picture mode i2_val =10,i2_switch=0,t_hdmi_infoframe:b_valid=1,aui1_info_frame_data[2]=136,aui1_info_frame_data[4]=0,ui1_allm_config=0,
+<MTKTVAPI><a_mtktvapi_config_update_nfy,11039> notifyId=3 
+{SB_CE} [6866] SET Internal ret changing 
+{SB_CE} [6908] crnt_svl_id = 0, crnt_svl_rec_id = 0[AUD]CMD: set Stop: Dsp(0) Dec(0)
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]Not HDR10 Plus
+[NPTV]XCCurHdrType:0
+[NPTV]u1hdrtype:0
+[VDP]------- in VDP_DrvHDRChgedNotify--------
+[NPTV]HDMI vDrvHDREOTFChangeNotify-->u2EotfValue:0 
+
+
+[ACFG_TEST] chg_timing c_scc_vid_set_hdr_eotf i4_ret[0]
+[MWIF2-VDP]------- _VdpHDRTYPEChangedNotify--------
+[dragon]:_acfg_scc_vid_hdr_vdp_nfy:hdr=0[NPTV]_PE_SetVdoPictureMode 10
+[NPTV]SmartPic Index Error!
+
+MTVDO_SetPQ() fail, ret=-1
+<ACFG>acfg_video_update:7721,update APP_CFG_RECID_CLR_TEMP i2_app_val=1 SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 1 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]HDR10PlusModeChange:0
+[NPTV]vDrvIsHDR10Plus:0
+[NPTV]input gamma type is undefined...
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+
+MTDRVCUST_OptQuery() fail, ret=-1[TECHNI] Set TechniColorHDR On = 0 
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+
+<ACFG>acfg_video_get_color_index:2901,ui1_pic_mode=10,color index=5
+<ACFG>APP_CFG_RECID_VID_COLOR_INDEX (i2_app_val = 5 s_disp_name:snk_MainDisp)
+<ACFG><acfg_video_update,7681> update picture mode done .. 
+{LIANG} acfg_video.c:acfg_video_update:8044 acfg_get_svctx(s_disp_name=snk_MainDisp)
+MTVDEC_GetInfo() fail, ret=-2[TECHNI] Set TechniColorHDR On = 0 
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+
+acfg.c:_acfg_app_process_msg_fct: pre picture mode i2_val =10,i2_switch=0,t_hdmi_infoframe:b_valid=1,aui1_info_frame_data[2]=136,aui1_info_frame_data[4]=0,ui1_allm_config=0,
+<MTKTVAPI><a_mtktvapi_config_update_nfy,11039> notifyId=3 [NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]Not HDR10 Plus
+[NPTV]XCCurHdrType:0
+[NPTV]u1hdrtype:0
+[VDP]------- in VDP_DrvHDRChgedNotify--------
+[NPTV]HDMI vDrvHDREOTFChangeNotify-->u2EotfValue:0 
+
+
+[ACFG_TEST] chg_timing c_scc_vid_set_hdr_eotf i4_ret[0]
+[MWIF2-VDP]------- _VdpHDRTYPEChangedNotify--------
+[dragon]:_acfg_scc_vid_hdr_vdp_nfy:hdr=0[NPTV]_PE_SetVdoPictureMode 10
+[NPTV]SmartPic Index Error!
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+[NPTV]HDR10PlusModeChange:0
+[NPTV]vDrvIsHDR10Plus:0
+[NPTV]input gamma type is undefined...
+[NPTV]Support HDR10Plus
+[NPTV]GetHDR10PlusFlag:4
+
+MTVDO_SetPQ() fail, ret=-1
+<ACFG>acfg_video_update:7721,update APP_CFG_RECID_CLR_TEMP i2_app_val=1 SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 1 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+
+MTDRVCUST_OptQuery() fail, ret=-1
+[TECHNI] Set TechniColorHDR On = 0 
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+<ACFG>acfg_video_get_color_index:2901,ui1_pic_mode=10,color index=5
+<ACFG>APP_CFG_RECID_VID_COLOR_INDEX (i2_app_val = 5 s_disp_name:snk_MainDisp)
+<ACFG><acfg_video_update,7681> update picture mode done .. 
+{LIANG} acfg_video.c:acfg_video_update:8044 acfg_get_svctx(s_disp_name=snk_MainDisp)[TECHNI] Set TechniColorHDR On = 0 
+SUPPORT_NVM_GAMMA define is not enabled   GammaUIIndex 2 
+[NPTV]eEepromGammaAddr=0x6c3, eEepromGammaCheckAddr=0x1110f
+[NPTV]eEepromGammaKey=0
+[NPTV][1m[45;33m [DRVCUST_ReadNVMGamma 1748 Hight_Bit: 0x0, Low_Bit 0x0] [0m
+
+MTVDEC_GetInfo() fail, ret=-2
+acfg.c:_acfg_app_process_msg_fct:3482 ACFG_MSG_SCC_VID_HDR_EVNT e_nfy_cond=0,pt_msg_hdr_evnt->e_vid_hdr_type=0,b_HDR_to_SDR=0
+acfg.c:_acfg_app_process_msg_fct:3482 ACFG_MSG_SCC_VID_HDR_EVNT e_nfy_cond=0,pt_msg_hdr_evnt->e_vid_hdr_type=0,b_HDR_to_SDR=0[AUD]_AudSendDspFlowControlCmd receive stop cmd
+[AUD]Aud dsp(0) dec(0) AUD_Command <AUD_CMD_STOP> done
+[AUD]====> vAprocDec_Close 0
+[AUD_MS12_PCMR_DISCARD_DRC][4243] xiaomi, bEnable(1)
+[AUD][_AUD_MS12_PCMR_DISCARD_DRC:7850]u4Base(0xffffff800d041000),u4Offset(0x886b40),pi4Addr(0xffffff800d8c7b40),bEnable(1)
+[AUD]dec id = 0, handle = -140926592, ffffffc0f7467cd4
+
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+{SVCTX:RM_CLIENT}Info: svctx_rm_release@L5219. e_res_group(2) [AUD]CMD: set DecType: Dsp(0) Dec(0) StreamFrom(HDMI) Fmt(AUD_DEC_FMT_PCM)
+[AUD]u2format(0x0),_AudGetStrFormat(0)=3
+[AUD]_GetMasterDevices start
+[AUD]_AUD_SetInputSourceGain Src(5),Dec0 to 0x7fffff
+
+{SVCTX:RM_CLIENT}Info: svctx_rm_release@L5229. No need release for group(2)
+[AUD]Aud dsp(0) dec(0) AUD_Command <AUD_CMD_LOADCODE> done
+[AUD]CMD: set DecType: Dsp(0) Dec(0) StreamFrom(HDMI) Fmt(AUD_DEC_FMT_PCM)
+[AUD]u2format(0x0),_AudGetStrFormat(0)=3
+[AUD]_GetMasterDevices start
+[AUD]_AUD_SetInputSourceGain Src(5),Dec0 to 0x7fffff
+[AUD]Aud dsp(0) dec(0) AUD_Command <AUD_CMD_LOADCODE> done
+[AUD]CMD: set AVSyncMode: Dsp(0) Dec(0) Mode(AV_SYNC_SLAVE)
+[AUD]CMD: set Play Asyn: Dsp(0) Dec(0)
+[AUD]====> vAprocDecc_Open 0
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(0)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(1)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(2)
+[AUD_MS12_PCMR_DISCARD_DRC][4243] xiaomi, bEnable(1)
+[AUD][_AUD_MS12_PCMR_DISCARD_DRC:7850]u4Base(0xffffff800d041000),u4Offset(0x886b40),pi4Addr(0xffffff800d8c7b40),bEnable(1)
+[AUD_MS12_PCMR_COMPRESSOR_PROFILE][4339] xiaomi, u4Cprof(0)
+[AUD][_AUD_DolbyMS12_Loudness:2134]u1DecId(0)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(0)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(1)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(2)
+[AUD]dec id = 0, handle = -140926592, ffffffc0f7467c94
+[AUD][AUD][SC]SILENCECTRL_FIX_THRESHOLD=1048576
+[AUD][SC]SILENCECTRL_WAIT_NUM=375
+[AUD][SC]SILENCECTRL_RELEASE_STEP=129055
+[AUD][SC]SILENCECTRL_ATTACK_STEP=64035
+[AUD][SC]SILENCECTRL_ATTACK_GAIN=0
+Aud dsp(0) dec(0) AUD_Command <AUD_CMD_PLAY> done
+[AUD]dec id = 0, handle = -140926592, ffffffc0f7467cd4
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(0)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(1)
+[AUD_MS12_QUERY_PCMR_DRC_MODE][4275] xiaomi, u4Sel(2)
+[AUD_MS12_PCMR_DISCARD_DRC][4243] xiaomi, bEnable(1)
+[AUD][_AUD_MS12_PCMR_DISCARD_DRC:7850]u4Base(0xffffff800d041000),u4Offset(0x886b40),pi4Addr(0xffffff800d8c7b40),bEnable(1)
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD_MS12_PCMR_COMPRESSOR_PROFILE][4339] xiaomi, u4Cprof(0)
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD]_AudAutoModeConvertIecCfg:IecCfg:1
+[AUD][_AUD_RiscIecBufInit:1480]IEC Buffer Init u4Str(0x9144eab0), u4End(0xa), u4Size(0x10), u4SiBase(0x9144eee0)
+[AUD][_CalculateOutputDeviceDelay]adjust delay=-3718 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-3718 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-2413 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-2413 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-2413 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-2413 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-2413 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-2413 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-2413 need >= 0![AUD][_CalculateOutputDeviceDelay]adjust delay=-2413 need >= 0![AUD][_SetOutputDeviceDelay]: dev2 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:2
+[AUD][_SetOutputDeviceDelay]: dev3 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:3
+[AUD][_SetOutputDeviceDelay]: dev4 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:4
+[AUD][_SetOutputDeviceDelay]: dev5 Aproc set delay banks:0
+[AUD][_SetOutputDeviceDelay]: dev6 Aproc set delay banks:0
+[AUD][_SetOutputDeviceDelay]: dev7 Aproc set delay banks:113
+[AUD][_SetOutputDeviceDelay]: dev9 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:9
+[AUD][_SetOutputDeviceDelay]: dev10 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:10
+[AUD][_SetOutputDeviceDelay]: dev11 Aproc set delay banks:0
+[AUD][_AprocSetDelayRoutine]: invalid delay routine device:11
+MTVDEC_GetInfo() fail, ret=-2
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD]AUD_GetSinkCapability  connect=0 dd = 0 ddp=0, mat=0,dtshd=0
+[AUD]_AudAutoModeConvertIecCfg:IecCfg:1
+[AUD][_AUD_RiscIecBufInit:1480]IEC Buffer Init u4Str(0x9144eab0), u4End(0xa), u4Size(0x10), u4SiBase(0x9144eee0)
+******Amplifier_TI5805_SWMute(0)
+[AUD]dec id = 0, handle = -140926592, ffffffc0f7533d14
+[AUD]AUD_DrvMMAoutEnableNotify: u1DecId(0), fgResume(0)
+******Amplifier_TI5805_SWMute(0)
+[AUD]<< HDMI/SPDIFIN undetect >>
+[MUTE]set xc delay u1UnmuteCnt[0]:2
+******Amplifier_TI5805_SWMute(0)
+[MUTE]u1UnmuteCnt[0] 2
+[MUTE]u1UnmuteCnt[0] 1
+[MUTE][Performance]Mute State Changed :Path(0), Latest module(0), Mute State(1) --> (0)
+[VDP]VDP_VideoUnmuteNotify DisableOSD
+[OSD pid:2791 comm:MLVdo_thread]OSD_SC_Scale: plane:1, scaler enable:1, srcWidth:0, srcHeight:0, dstWidth:0, dstHeight:0
+[VDP]VDP_VideoUnmuteNotify DisableOSD
+[OSD pid:2791 comm:MLVdo_thread]OSD_SC_Scale: plane:1, scaler enable:1, srcWidth:0, srcHeight:0, dstWidth:0, dstHeight:0
+[MUTE]MJC_MUTE(0)
+[MWIF2-VDP]{_VdpUnmuteStatusNotify, 5158} Notify VID_PLA_COND_MUTE_ALL_FINISHED to SM !!! u4VdpId 0, u4Arg1 1 
+[MWIF2-VDP]{_VdpUnmuteStatusNotify, 5152} return reason: NULL == _arMwVdp[1].pfEosNfy 
+[AUD][PLAY_MUTE](0)Got video unmute message
+[AUD][PLAY_MUTE](0)!!gogogo Audio UnMute!! i2UnMuteCount = 0 u4VdoMuteFlag = 1******Amplifier_TI5805_SWMute(0)
+[OSD pid:2791 comm:MLVdo_thread]OSD_SC_Scale: plane:1, scaler enable:1, srcWidth:0, srcHeight:0, dstWidth:0, dstHeight:0
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+[AUD]Do not support AUD_DEC_SET_TYPE_MUTE_EX
+{AUDIO_INFO} {AUDIO_INFO} audio_info.c:_audio_info_update_analog_audio_info:2458 FALSE == b_is_ready
+{AUDIO_INFO} {AUDIO_INFO} audio_info.c:_audio_info_update_analog_audio_info:2458 FALSE == b_is_ready
+{AUDIO_INFO} {AUDIO_INFO} audio_info.c:_audio_info_update_analog_audio_info:2458 FALSE == b_is_ready
+{AUDIO_INFO} {AUDIO_INFO} audio_info.c:_audio_info_update_analog_audio_info:2458 FALSE == b_is_ready
+{AUDIO_INFO} {AUDIO_INFO} audio_info.c:_audio_info_update_analog_audio_info:2458 FALSE == b_is_ready
+[NPTV]##u4IsDoviHDR=0 ###
+{ACFG} mtktvapi_config.c:a_mtktvapi_config_get_value:6727 dolby_vision and CFG_GRP_DOVI_INFO get *pi4_value =0 
+
